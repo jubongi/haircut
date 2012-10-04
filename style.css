@@ -1,0 +1,227 @@
+html {
+    height:100%; width:100%
+}
+
+body {
+	background-color:#f9dcb2;
+	background-image:url('scissors.png');
+	background-repeat:repeat;
+	padding:0px;
+	margin:0px;
+	height:100%;
+	width:100%;
+	
+}
+
+#div .fixedheader {
+	width:100%;
+	height:30px;	
+}
+header{
+    height: 600px;
+    width:100%;
+    background-color:#f9dcb2;
+}
+.nav
+{
+	position:absolute;
+	left:100px;
+	top:500px;
+}
+.fixedheader{
+	
+}
+
+.psdbio{
+	background:url('currrent270.png');
+	position:absolute;
+	background-repeat:no-repeat;
+	left: 100px; 
+	top: 200px; 
+	width:200px;
+	height:40px;
+}
+
+.socialbio	{
+
+	height:100px;
+	left:75px; 
+	top:155px; 
+	position:relative;
+	z-index:1;
+
+}
+
+td.bioinfo { 
+	background-color: white; 
+}
+
+.bio {
+	display: block;
+	width: 270px;
+	height: 269px;
+	background: url('currentfull.png') bottom;
+	text-indent: -99999px;
+}
+.bio:hover {
+	background-position: 0 0;
+}
+
+.bioinfo{
+	background-color:#000;
+	z-index:4;
+	border-color:black;
+	border:2px;
+	width:420px; 
+}
+
+.biospace{
+	width:120px;
+	position:absolute;
+}
+.photo{
+	width:50px;
+}
+.me{
+	left: 450px; 
+	top: 200px; 
+	position: absolute; 
+	z-index: 2;
+}
+
+.fb:hover{
+	
+	}
+.social{
+	border-width: 3px;
+	border-radius: 5px;
+	padding:3px;
+	margin:2px;
+	background-color: white;
+}
+
+
+h1{
+	color:#d19223;
+	font-size:24px;
+	line-height:50px;
+}
+a, h1{
+	color:#d19223;
+	font-size:24px;
+	line-height:50px;
+	underline:none;
+}
+
+h2 {
+	color:#000000;
+	font-size:24px;
+	line-height:5px;
+	underline:none;
+	font-family:helvetica;
+}
+a, h2{
+	color:#000000;
+	font-size:24px;
+	line-height:10px;
+	text-decoration:underline;
+	font-family:helvetica;
+} 
+	
+h3 {
+	color:#4d6470;
+	font-size:12px;
+	line-height:10px;
+}
+a, h3 {
+	color:#4d6470;
+	font-size:12px;
+	line-height:10px;
+	text-decoration:underline;
+}
+	
+h4 {
+	color:#4d6470;
+	font-size:12px;
+	line-height:10px;
+	text-decoration:none;
+}
+/*a, h4 {
+	color:#000;
+	font-size:8px;
+	line-height:10px;
+	text-decoration:underline;
+}
+*/
+h5 {color:;}
+
+.about{
+	background-color:#975e0c;	
+
+}
+
+
+#parallax-bg3 {
+    z-index: 3;
+    position: fixed;
+    left: 50%; /* align left edge with center of viewport */
+    top: 0;
+    width: 940px;
+    margin-left: -470px; /* move left by half element's width */
+}
+#bg3-1 {
+    position: absolute;
+    top: -111px;
+    left: 355px;
+}
+#bg3-2 {
+    position: absolute;
+    top: 812px;
+    left: 321px;
+}
+
+
+ol, ul, li{
+	style:none;
+}
+
+img.fbimage
+{
+position:fixed;
+left:0px;
+top:0px;
+z-index:2;
+}
+
+#haircuts{
+	display:inline;
+	position: center;
+	text-align:center;
+}
+#hairphotos{
+	margin:20px;
+	border:none;
+	float:center;
+	position:center;	
+}
+#bios{
+	height:200px;
+	position:center;
+	margin-left:300px;
+	z-index:1;
+	background: ()
+	
+}
+#biophotos{
+	width:20px;
+}
+#biophotos:hover{
+	
+}
+	
+share{
+	width:20%;
+}	
+	
+}
+
