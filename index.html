@@ -14,169 +14,333 @@
 		<meta name="viewport" content="width=device-width; initial-scale=1.0" />
 
 		<!-- Replace favicon.ico & apple-touch-icon.png in the root of your domain and delete these references -->
-		<link rel="shortcut icon" href="/favicon.png" />
+		<link rel="shortcut icon" href="/favicon.ico" />
 		<link rel="apple-touch-icon" href="/apple-touch-icon.png" />
 		<script type="text/javascript" src="cufon.js"></script>
-		
+		<script type="text/javascript" src="javascript"></script>
 
 		<link rel="stylesheet" type="text/css" href="style.css" />
 		<script type="text/javascript" src="jquery-1.8.1.min.js"></script>
+		<script src="http://code.jquery.com/jquery-1.8.3.js"></script>
+  		<script src="http://code.jquery.com/ui/1.9.2/jquery-ui.js"></script>
 		
 		<script type="text/javascript" src="Brock_Script_400.font.js"></script>
 		<script src="js/cufon-yui.js" type="text/javascript"></script>
 		<script type="text/javascript">Cufon.replace('#cufon-area h1, #cufon-area h2, #cufon-area h3');</script>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.js"></script> 
+		<script src="http://malsup.github.com/jquery.form.js"></script> 
+		<script src="//connect.facebook.net/en_US/all.js"></script>
 		
-		<script>
-
-
-</script>
-	</head>
-
+		<!--image gallery-->
+ 		<script src="scripts/mootools.v1.11.js" type="text/javascript"></script>
+		<script src="scripts/jd.gallery.js" type="text/javascript"></script>
+		<link rel="stylesheet" href="css/jd.gallery.css" type="text/css" media="screen" />
+		
+		
+    <script> 
+    
+        // wait for the DOM to be loaded 
+        $(document).ready(function() { 
+            // bind 'myForm' and provide a simple callback function 
+            $('#myForm').ajaxForm(function() { 
+                alert("Thank you for your comment!"); 
+            }); 
+        }); 
+    </script> 
+   </head>
 	<body>
-		<div>
-			<header>
-				<div>
-					<div class "fixedheader">
-							<tr>
-								<td class="top" style="left:30px; text-align:right; position:fixed; z-index:4">
-									<h1>share</h1>
-								</td>
-								<td class="top" style="left:1000px; text-align:right; position:fixed; z-index: 4">
-									<h1>countdown</h1>
-								</td>
-							</tr>
-					</table>
-				</div>
-				<span class "headerimage">					
-					<img src="headerimage.png" alt="title" style="left:275px; top:50px; width:600px; position:absolute;">
-				</span>
-				<div>		
-					<table class= "socialbio">
-							<tr height="60px">
-								<td class "bioinfo" style="background-color:#FFFFFF; border-radius:40px;">
-									<table style="width:418px; background-color:#FFFFFF; border-spacing:1px; border-radius:40px; border-width:3px; border-color:#3c5a9a;">
-										<td "biostyle" width="100px">
-											<img src="https://fbcdn-profile-a.akamaihd.net/hprofile-ak-prn1/573880_1188387140_509532377_n.jpg" width="80px" style="border-radius:40px">
-										</td>
-										<td width="350px">
-											<p>fb bio</p>
-										</td>
-										<td>
-											<img src="browncirclefb.png" width="80px" >
-										</td>
-									</table>
-								<td>
-									nothing	
-								</td>
-								<td class "bioinfo">
-									<table style="background-color:#FFFFFF; border-spacing:1px; border-radius:40px; border-width:3px; border-color:#00acee;">
-										<td>
-											<img src="browncircletw.png" width="80px">
-										</td>
-										<td width="100px">
-											<img src="https://twimg0-a.akamaihd.net/profile_images/1169056734/149761_1687883995456_1188387140_1946036_3506560_n_reasonably_small.jpg" width="80px" style="border-radius:40px">
+<div id="fb-root"></div>
+<script>
+  window.fbAsyncInit = function() {
+    // init the FB JS SDK
+    FB.init({
+      appId      : 'YOUR_APP_ID', // App ID from the App Dashboard
+      channelUrl : '//www.juliangetsahaircut.com', // Channel File for x-domain communication
+      status     : true, // check the login status upon init?
+      cookie     : true, // set sessions cookies to allow your server to access the session?
+      xfbml      : true  // parse XFBML tags on this page?
+    });
 
-										</td>
-										<td width="250px">
-										<h2> Julian Bongiorno<a href="http://www.twitter.com/jubongi"><h3>@JuBongi</h3></a><h4><i>Brought to you by a european swollow</i></h4></h2>
-											</style="font-size:20px;">
-										</td>
-									</table>
-								</td>
-							</tr>
-							<tr height="106px">
-							</tr>
-							<tr>
-								<td class "bioinfo" style="background-color:#FFFFFF; border-radius:40px;">
-									<table style="width:418px">
-										<td width="100px">
-											<img src="http://m3.licdn.com/mpr/mpr/shrink_150_150/p/1/000/1a2/3a6/0865e50.jpg" width="80px" style="border-radius:40px">
-										</td>
-										<td width="350px">
-											in bio
-										</td>
-										<td>
-											<img src="browncirclein.png" width="80px">
-										</td>
-									</table>
-								<td width="110px">
-								</td>
-								<td class "bioinfo" style="background-color:#FFFFFF; border-radius:40px;">
-									<table>
-										<td>
-											<img src="browncirclezer.png" width="80px">
-										</td>
-										<td width="100px">
-											<img src="http://zerply.com/profile_images/3/67469/big.jpg?1342805237" width="75px" style="border-radius:40px">
+    // Additional initialization code such as adding Event Listeners goes here
 
-										</td>
-										<td width="250px">
-											<a href="http://www.http://zerply.com/JuBongi"><h2>Julian Bongiorno</h2></a><h4><i>Student of the Experience</i></h4><b>Location: </b>Brooklyn/New York City</h2>
-											</style="font-size:20px;">
-										</td>
-									</table>
-								</td>
-							</tr>
-						</table>
+  };
+
+  // Load the SDK's source Asynchronously
+  // Note that the debug version is being actively developed and might 
+  // contain some type checks that are overly strict. 
+  // Please report such bugs using the bugs tool.
+  (function(d, debug){
+     var js, id = 'facebook-jssdk', ref = d.getElementsByTagName('script')[0];
+     if (d.getElementById(id)) {return;}
+     js = d.createElement('script'); js.id = id; js.async = true;
+     js.src = "//connect.facebook.net/en_US/all" + (debug ? "/debug" : "") + ".js";
+     ref.parentNode.insertBefore(js, ref);
+   }(document, /*debug*/ false));
+</script>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=130835263727664";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));
+</script>
+<script type="text/javascript">
+function startGallery() {
+var myGallery = new gallery($('myGallery'), {
+timed: false
+});
+}
+window.addEvent('domready', startGallery);
+</script>
+		<header>
+			<div id="update_bar">
+				<ul>
+					<li>
+						<div id="share">
+							<ul>
+								<li>
+									<div id="socialt"><a href="http://www.twitter.com/julianshaircut" target="_blank"><img src="twitter-bird-light-bgs.png" alt="twtter" width="40px"></a></div>
+								</li>
+								<li>
+									<div id="socialf"><a href="http://www.facebook.com/juliangetsahaircut" target="_blank"><img src="facebookf.png" alt="facebook" width="13px" ></a></div>
+								</li>
+							</ul>
+						</div>
+					</li>
+					<li>
+						<div id="topnav">
+							<ul>
+								<li>
+									<div class="topnav_image"><a href="#pigtails"><img src="pigtails_trans.png" width="35px" alt="pigtails"></a></div>
+								</li>
+								<li>
+									<div class="topnav_image"><a href="#2face"><img src="2face_trans.png" width="35px" alt="2face"></a></div>
+								</li>
+								<li>
+									<div class="topnav_image"><a href="#warrior"><img src="mongol_trans.png" width="35px" alt="mongol"></a></div>
+								</li>
+								<li>
+									<div class="topnav_image"><a href="#culdesac"><img src="culdesac_trans.png" width="35px" alt="culdesack"></a></div>
+								</li>
+								<li>
+									<div class="topnav_image"><a href="#bangs"><img src="bangs_trans.png" width="35px" alt="bangs"></a></div>
+								</li>
+							</ul>
+						</div>
+					</li>
+					<li> 
+						<div id="countdown">
+							<iframe src="http://free.timeanddate.com/countdown/i3cnjy7w/n179/cf12/cm0/cu2/ct1/cs1/ca0/co0/cr0/ss0/cac000/cpc000/pct/tcfff/fs100/szw448/szh189/iso2013-05-24T00:00:00" frameborder="0" width="86" height="26"></iframe>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</header>
+		<div class="wrapper">
+			<div id="level_0">
+				<div id="main">
+					<div id="headerimage">					
+						<img src="headerimage2.png" width="600px" alt="juliangetsahaircut">
+					</div>
 				</div>
+				<div class="nav">
+					<ul>
+						<li>
+							<div class="nav_image"><a href="#pigtails"><img src="pigtails_trans.png" width="150px" alt="pigtails"></a></div>
+						</li>
+						<li>
+							<div class="nav_image"><a href="#2face"><img src="2face_trans.png" width="150px" alt="2face"></a></div>
+						</li>
+						<li>
+							<div class="nav_image"><a href="#warrior"><img src="mongol_trans.png" width="150px" alt="mongol"></a></div>
+						</li>
+						<li>
+							<div class="nav_image"><a href="#culdesac"><img src="culdesac_trans.png" width="150px" alt="culdesack"></a></div>
+						</li>
+						<li>
+							<div class="nav_image"><a href="#bangs"><img src="bangs_trans.png" width="150px" alt="bangs"></a></div>
+						</li>
+					</ul>
+				</div>
+			</div>
+			
+			<a name="pigtails"></a>
+			<div id="level_1">
+				<div id="content_1">
+					<p>
+						<h2>WHAT IT&#39S ALL ABOUT</a></h2>
+						<h3>From now until April 6th 2013, join me on my quest to raise $10,000 for cancer research. I have been growing my hair out for two full years to shave it all off in the grand (and ridiculous) culminating event that is JulianGetsAHaircut.com.</h3>
+					<br>
+					<br>	
+					<p>
+						<h2>THE WAY IT WORKS</h2>
+						<h3>Two weeks of doing to change lives. Through a series of four "two week challenges", both you and I will be able to donate not our money, but rather our time, our energy and our hearts to some very deserving people. For the final two weeks, I put my next haircut in your hands (ok, your wallets) where your donations are your votes. The haircut with the most votes at the end of the two weeks will be etched/carved/cut/shaved into my head for ONE WHOLE MONTH! Your options for my haircut run the right side of this page. Haircut voting opens March 24th, so mark your calendars.</h3>
+					</p>
+					<br>
+					<br>
+					<p>
+						<h2>KEEP IN TOUCH</h2>
+						<h3>I&#39ll keep you updated with emails, so you never miss a two week challenge, video or story. I promise to keep them intersting and brief as long as you promise to forward them to everyone you know. Pay it forward to connect our networks and together we&#39re bound to do something great. </h3>
+					</p>
+				</div>
+				<div id="image1">
+					<img src="frame_pigtails.png" alt="pigtails" width="400px">
+				</div>
+			</div>
+			
+			<a name="2face"></a>
+			<div id="level_2">
+				<div id="content_2">
+					<h2><p>SUPPORT A GREAT CAUSE</p></h2>
+					<div class="charity">
+						<div id="MSK">
+							<p><a href="http://www.mskcc.org/" target="_blank"><img src="mskcc-logo.png" width="400px" alt="MSK"></a></p>
+							<p>The <b>Strategic Initiatives Fund </b>provides annual funding for MSKCC&#39s leadership to direct resources to the most promising initiatives and pressing needs of the institution. This fund speeds the most promising work, thereby shortening the interval between the time new discoveries made in the laboratory are delivered to patients. It also provides seed money for vital new research opportunities as they arise and ensures the necessary means to attract, recruit, and retain the best and brightest researchers and physicians. Lastly, this fund supports novel research endeavors that might otherwise go unfunded.
+							</p>
+							<p>ALL PROCEEDS WILL BE DONATED TO MSKCC</p>
+						</div>
+						<div id="PBL">
+							<div id="image"><p><a href="http://www.pantene.com/en-US/PanteneBeautifulLengths/Pages/default.aspx" target="_blank"><img src="pantene.png" alt="PBL" width="150px"></a></p></div>
+							<div id="description"><p><b>Pantene Beautiful Lengths</b> helps women fighting cancer receive free, real-hair wigs. In fact, they&#39re giving over 1 million dollars this year to strengthen the cause. See how others have shown their support and get inspired at Pantene.com.</p>
+								<p>ALL HAIR BOTH BEFORE AND AFTER THE CUTS WILL BE DONATED TO PBL</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div id="image2">
+					<img src="frame_2face.png" alt="2face" width="400px">
+					<h3><p>*Includes the face and eyebrows</p></h3>
+				</div>
+			</div>
+			
+			<a name="warrior"></a>
+			<div id="level_3">
+				<div id="content_3">
+					<h2><p>SPREAD THE WORD</p></h2>
+						<div id="email_form">  
+							<form name="emailaddress" action="emaillist.asp">  
+ 								<fieldset>
+ 									<input onfocus="this.value=''" type="text" size="50%" value="EMAIL" />
+								    <label for="email" id="email_label"><h2>Email</h2></label>  
+								    <input type="text" name="email" id="email" size="100" value="" class="text-input" />  
+								    <label class="error" for="email" id="email_error"></label>   
+		   							<br />  
+    								<input type="submit" name="submit" class="button" id="submit_btn" value="Send" />  
+ 								</fieldset>  
+							</form>  
+						</div>  
+					<!--<div id="emails">
+						<h2>EMAIL EXPECTATIONS:</h2>
+						<div class="expectation">
+							<h1><p><u>ME</u></p></h1>
+							<ul><h3>
+								<li><p>- Notifications about the OTHER 2 WEEK CHALLENGES</p></li>
+								<li><p>- Personal accounts and inspiring stories</p></li>
+								<li><p>- Fun, hair related media content</p></li>
+								<li><p>- Updates, milestones, progress</p></li>
+							</h3></ul>
+						</div>
+						<div class="expectation">
+							<h1><p><u>YOU</u></p></h1>
+							<ul><h3>
+								<li><p>- Forward my emails to friends and family</p></li>
+								<li><p>- Tell everyone you see and meet</p></li>
+								<li><p>- Help connect our networks</p></li>
+							</h3></ul>
+						</div>
+					</div>-->
+					<div id="thanks">
+						<h1><p>THANK YOU FOR YOUR PARTICIPATION, TIME, AND ASSISTANCE.</p></h1>
+					</div>
+				</div>
+				<div id="image3">
+					<img src="frame_warrior.png" alt="warrior" width="400px">
+				</div>
+			</div>
+			
+			<a name="culdesac"></a>
+			<div id="level_4">
+				<div id="content_4">
+					<h2><p>EARN VOTES</p></h2>
+					<h1>Before monetary donations open on March 24th, rack up votes and let everyone know which haircut is your favorite. I&#39ll message you a code to redeem all your hard earned votes. Sharing is caring.  #thegoodolddays </h1>
+					<br>
+					<h3><p>Facebook Like = 10 Votes</p>
+					<br>
+					<p>Twitter Follow   = 10 Votes</p>
+					<p>TwitPic@ = 20 Votes</p>
+					<p>Retweet  = 30 Votes</p>
+					<p>	+____________________</p>
+					<p> #VOTESONVOTESONVOTES</p>
+					</h3>
+					<div id="arnold">
+						<img src="arnold.png" alt="ANOLD" width="120px">
+					</div>
+				</div>
+				<div id="image4">
+					<img src="frame_culdsac.png" alt="culdesack" width="400px">
+				</div>
+			</div>
+			
+			<a name="bangs"></a>
+			<div id="level_5">
+				<div id="content_5">
+					<div id="about">	
+						<h2><p>GET TO KNOW ME</p></h2>
+						<h3><p>Hey hey hey! I&#39m Julian! </p>
+						<p>I will be graduating from Columbia University in New York City this May with a BS in Mechanical Engineering.</p>
+						<p>When people ask me why I do it, my answer is simply, WHY NOT?! I have the luxury of time and health and would easily give either to someone that could use some more of it. </p>
+						<p>I was voted class clown and most involved in high school and love new experiences - especially those that challenge me. </p>
+						<p>I understand the pain of sickness but also believe in the power of smiles. Help me spread the smiles while battling a serious matter.</p>
+						<p><a href="mystory" alt="MyStory">Read my story here</a>.</p>
+						<p>If you have any other questions, want to become a sponsor, or want to put me on you show/station/wall/bed, feel free to <a href="mailto:jjb2163@columbia.edu subject=coments">email me</a>. </p></h3>
+					</div>
+				</div>
+						<!--<a href="#" onClick="window.open('file:///Users/Julian/Desktop/JulianGetsAHaircut/website/haircut_iframe/1.jpg','previous','resizable,height=500,width=650,scrollbars=no'); return false;">News archive</a>><iframe name="previous" id="previous" src="file:///Users/Julian/Desktop/JulianGetsAHaircut/website/haircut_iframe/1.jpg" scrolling="auto" marginwidth="0" marginheight="0" frameborder="0" vspace="0" hspace="0" style="overflow:visible; width:100&#37;; height:100%;"></iframe></a> </p></h3>
+				<div id="myGallery">
+					<div class="imageElement">
+						<h3>Item 1 Title</h3>
+						<p>Item 1 Description</p>
+						<img src="haircut_iframe/1.jpg" class="full" />
+						<img src="haircut_iframe/1.jpg" class="thumbnail" width="20%"/>
+					</div>
+					<div class="imageElement">
+						<h3>Item 2 Title</h3>
+						<p>Item 2 Description</p>
+						<img src="haircut_iframe/2.jpg" class="full" />
+						<img src="haircut_iframe/2.jpg" class="thumbnail" width="20%"/>
+					</div>
+					<div class="imageElement">
+						<h3>Item 3 Title</h3>
+						<p>Item 3 Description</p>
+						<img src="haircut_iframe/3.jpg" class="full" />
+						<img src="haircut_iframe/3.jpg" class="thumbnail" width="20%"/>
+					</div>
+					<div class="imageElement">
+						<h3>Item 4 Title</h3>
+						<p>Item 4 Description</p>
+						<img src="haircut_iframe/4.jpg" class="full" />
+						<img src="haircut_iframe/4.jpg" class="thumbnail" width="20%"/>
+					</div>
+					<div class="imageElement">
+						<h3>Item 5 Title</h3>
+						<p>Item 5 Description</p>
+						<img src="haircut_iframe/5.jpg" class="full" />
+						<img src="haircut_iframe/5.jpg" class="thumbnail" width="20%"/>
+					</div>
+				</div>
+			</div>-->
 				
-								<td width="450px" align="center">
-									<div>	
-										<a class="bio" href="#currentfull" style="left: 420px; top: 200px; position: absolute; z-index: 1">me</a>
-										<!--<div class "bio" > <img src="currrent.png"width="270px"alt="me"></div>-->
-										<div class="fb" style="left: 420px; top: 200px; position: absolute; z-index: 2"> <img src="facebookicon.png"width="70px"alt="facebook"></div>
-										<div class="tw" style="left: 620px; top: 200px; position: absolute; z-index: 2"> <img src="twittericon.png"width="70px"alt="twitter"></div>
-										<div class="lin" style="left: 419px; top: 399px; position: absolute; z-index: 2"> <img src="linkedinicon.png"width="70px"alt="linkedin"></div>
-										<div class="zerp" style="left: 621px; top: 399px; position: absolute; z-index: 2"> <img src="zerplyicon.png"width="70px"alt="zerply"></div>
-									</div>
-								</td>
-								<div "biolinks">
-								</div>
-							</tr>
-						</table>
+				<div id="image5">
+					<img src="frame_bangs.png" alt="bangs" width="400px">
 				</div>
-			</header>
-			
-			
-			<div id="nav" >
-					<div class "top" style="z-index: 1; position:absolute; left:50px; top:300px;"><a href="#how"><h1>How It Works</h1></a></div>
-					<div style="z-index:2"><a href="#haircuts"><h1>The Cuts</h1></a></div>
 			</div>
-			
-			
-			<div id= "how" style="height:600px; background-color:#975e0c;z-index: 2">
-					<img src="howitworks.png" alt"HowItWorks">
-				
-			</div>
-			<div id= "haircuts" style="z-index: 3">
-				<td class"hairphotos">
-					<tr>
-						<td>
-							<img src="culdesac.png" width="200">
-						</td>
-						<td>
-							<img src="2face.png"  width="200">
-						</td>
-						<td>
-							<img src="bangs.png" width="200">
-						</td>
-						<td>
-							<img src="mongol.png" width="200">
-						</td>
-						<td>
-							<img src="inverse.png" width="200">
-						</td>
-					</tr>
-					
-				</td>
-			</div>
-
-			
-			<footer>
-				<p>
-					&copy; Copyright  by Julian Bongiorno
-				</p>
-			</footer>
 		</div>
+		<footer>		
+			<div id="sponsors">
+				<h1><p>THIS COULD BE YOU!</p></h1>
+			</div>
+		</footer>
 	</body>
 </html>

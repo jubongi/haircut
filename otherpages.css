@@ -1,0 +1,38 @@
+#layout{
+	width:80%;
+	text-align:center;
+	display:block;
+	min-width:500px;
+}
+#homelink{
+	top:5px;
+	height:100px;
+	display:inline;
+	position:relative;
+}
+#homelink:hover{
+
+}
+#content{
+	position:relative;
+	display:inline;
+	float:left;
+	width:80%;
+	margin-left:10%;
+	background-color:white;
+	opacity:.9;
+	margin-top:50px;
+	border-radius:15px;
+	box-shadow:3px 3px 10px #000;
+	margin-bottom:50px;
+}
+#content h2{
+	color:black;
+}
+#content h3{
+	color:black;
+	text-align:left;
+	padding:10px;
+	font-size:14px;
+
+}
