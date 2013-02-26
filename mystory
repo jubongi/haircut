@@ -7,7 +7,7 @@
 		Remove this if you use the .htaccess -->
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 
-		<title>HTML</title>
+		<title>My Story</title>
 		<meta name="description" content="" />
 		<meta name="author" content="Julian Bongiorno" />
 
@@ -30,21 +30,33 @@
 
 	<body>
 		<div id="layout">
+			<div id="homelinkbkg">
 			<div id="homelink">
 				<a href="index.html" alt="home"><img src="headerimage2.png" height="100px"></a>
 			</div>
+			</div>
+			<div id="contentbkg">
 			<div id="content">
-				<p><h2>My Story</h2></p>
-				<p><h3>i have been touched and torn intimately by three dominant experiences that have significantly impacted my life and led to the creation of this idea and website.  it is for them and all those fighting and fought that i am doing everything in my abilities to help.</p>
-				<p>my first exposure to cancer was a very close friend’s mom during our final years of high school. her mom’s name is Dawn Garcia and she is the warm feeling you get inside when you feel true joy.  after months of treatment for her breast cancer, Dawn was considered cancer free. i missed the celebratory weekend in new york city, but i can only imagine it was a blast. unfortunately for us all, a rematch was to be scheduled about a year later. by that time however, Dawn was up a weight class; she was the underdog in her fight against the underlying stage III lymphoma that hid from doctors previously.  like rosy was to her rivets, Dawn was to her cure until her last fighting breath eight months later. we continue her devotion to hope, faith, and love everyday in her memory. Dawn taught me that the misery of pain allows us to enjoy happiness all the more and that we should be so lucky to feel, even if painful.  it is in her fight i initially began growing out my to-be-donated hair.</p>
-				<p>the second occasion cancer stole love from me was two summers ago. she was the matriarch of the italian catholic side of my family. she was strong like a bull and often grabbed them by the horns. she is my grandma Mary, and she is the stubbornness of passion that rages through our veins.  in the summer of 2011, the malignant cells of deep bone tissue leukemia only allowed her three more weeks of encumbered life.  she was the primary caregiver of my grandfather until the day she was brought to the hospital, a wicked good cook, and the immovable glue of half my extended family. from her passing i am reminded of the forbidding ease and speed with which everything can be unjustly taken away and to embrace every day in which such hardships elude me and those around me. to her i promise to remain ignorant to my bounds and to stop at nothing to reach them. </p>
-				<p>thirdly and lastly, he is the happiest man i have ever met. He was the go-to on all things knowable. He is my uncle, Seymore Ryba, and he is still making people laugh.  As hurricane sandy stole many of his possessions out to sea, we embrace all the nonmaterial keepsakes Sey gave us before his complicated fight with esophageal cancer ended this past october. had i not know better, i would swear his smile was a cure and the laughter surrounding him worked twofold the same. even though he was physically ailing, i aspired to be like him; his life, his loves, his effervescent being. to him i have made a promise to keep everyone happy, and as he showed me, especially when no one is laughing.</p>
-				<p>thank you for taking the time to hear my story and i hope you are able to do everything you can to help bring strength to as many fighters as you can. help me help thousands and let others know our determination to find a cure. spread the word about juliangetsaharcut.com and together we can do our part. </p>
+				<p><h1><a href="http://www.juliangetsahaircut.com" alt="home">home</a> > <h2>My Story</h2></p>
+				<p><h3>I have been touched and torn intimately by three dominant experiences that have significantly impacted my life and led to the creation of this idea and website.  It is for them and all those fighting and fought that I am doing everything in my abilities to help.</p>
+				<p>My first exposure to cancer was a very close friend&#39s mom during our final years of high school. Her mom&#39s name is <strong>Dawn Garcia</strong> and she is the warm feeling you get inside when you feel true joy.  After months of treatment for her breast cancer, Dawn was considered cancer free. I missed the celebratory weekend in New York City, but I can only imagine it was a blast. Unfortunately for us all, a rematch was to be scheduled about a year later. By that time however, Dawn was up a weight class; she was the underdog in her fight against the underlying stage III lymphoma that hid from doctors previously.  Like rosy was to her rivets, Dawn was to her cure until her last fighting breath eight months later. We continue her devotion to hope, faith, and love everyday in her memory. Dawn taught me that the misery of pain allows us to enjoy happiness all the more and that we should be so lucky to feel, even if painful.  It is in her fight that I initially began growing out my to-be-donated hair.</p>
+				<p>The second occasion cancer stole love from me was two summers ago. She was the matriarch of the Italian Catholic side of my family. She was strong like a bull and often grabbed them by the horns. She is my <strong>grandma Mary</strong>, and she is the stubbornness of passion that rages through our veins.  In the summer of 2011, the malignant cells of deep bone tissue leukemia only allowed her three more weeks of encumbered life.  She was the primary caregiver of my grandfather until the day she was brought to the hospital, a wicked good cook, and the immovable glue of half my extended family. From her passing I am reminded of the forbidding ease and speed with which everything can be unjustly taken away and to embrace every day in which such hardships elude me and those around me. To her I promise to remain ignorant to my boundries and to stop at nothing to reach them. </p>
+				<p>Thirdly and lastly, he is the happiest man I have ever met. He was the go-to on all things knowable. He is my <strong>uncle Seymour Ryba</strong>, and he is still making people laugh.  As hurricane Sandy stole many of his possessions out to sea, we embrace all the nonmaterial keepsakes Sey gave us before his complicated fight with esophageal cancer ended this past October. Had I not know better, I would swear his smile was a cure and the surrounding laughter he created worked twofold the same. Even though he was physically ailing, I aspired to be like him; his life, his loves, his effervescent being. To him Is have made a promise to keep everyone happy, and as he showed me, especially when no one is laughing.</p>
+				<p>Thank you for taking the time to hear my story and I hope you are able to do everything you can to help bring strength to as many fighters as you can. Help me help thousands and let others know our determination to find a cure. Spread the word about JulianGetsAHarcut.com and together we can do our part. </p>
 
-				<p>best,
-				<br>julian</p>
+				<p>Best,
+				<br>Julian</p>
 			</h3>
 			</div>
+			</div>
 		</div>
-	</body>
+
+	<div id="footer">
+			<div id="image">
+				<a href="index.html" alt="home"><img src="headerimage2.png" alt="footer Image" width="200px"></a>
+			</div>
+			<p> JulianGetsAHaircut.com is a website designed to fundraise and donate the funds and time of its users to Memorial Sloan-Kettering Cancer Center and the hair of Julian Bongiorno to Pantene's Beautiful Lengths. This website was designed and developed by <a href="http://julianbongiorno.me" alt="Personal Website">Julian Bongiorno</a>. The idea, implementation, and follow-up were all done himself. He is available to hire and is accepting offers of employment.</p>
+			<h1><p><a href="terms">Terms</a> | <a href="mystory" alt="mystory">My Story</a> | <a href="mailto:jjb2163@columbia.edu" alt="Contact">Contact Me</a></p></h1>
+		</div>
+	</body>	
 </html>

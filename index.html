@@ -7,7 +7,7 @@
 		Remove this if you use the .htaccess -->
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 
-		<title>Julian Gets A Haircut</title>
+		<title>JulianGetsAHaircut</title>
 		<meta name="description" content="" />
 		<meta name="author" content="Julian Bongiorno" />
 
@@ -31,14 +31,35 @@
 		<script src="http://malsup.github.com/jquery.form.js"></script> 
 		<script src="//connect.facebook.net/en_US/all.js"></script>
 		
-		<!--image gallery-->
- 		<script src="scripts/mootools.v1.11.js" type="text/javascript"></script>
-		<script src="scripts/jd.gallery.js" type="text/javascript"></script>
-		<link rel="stylesheet" href="css/jd.gallery.css" type="text/css" media="screen" />
+		<!-- fb meta data-->
+		 <meta property="og:image" content='https://https://s3.amazonaws.com/www.juliangetsahaircut.com/currrent_blank.png'>
+  	 	 <meta property="og:site_name" content="JulianGetsAHaircut.com" />
+   		 <meta property="og:title" content="JulianGetsAHaircut" />
+   		 <meta property="og:type" content="website" />
+   		 <meta property="og:description" content="" />
 		
+		<script src="dynamic_scrolling.js" type="text/javascript"></script>
 		
-    <script> 
-    
+		<!-- Begin MailChimp Signup Form -->
+		<link href="http://cdn-images.mailchimp.com/embedcode/slim-081711.css" rel="stylesheet" type="text/css">
+		<link rel="stylesheet" href="mailchimp.css" type="text/css">
+		<link rel="stylesheet" href="popup.css" type="text/css">
+
+		
+		<!-- google analytics-->
+		<script type="text/javascript">
+	 	 var _gaq = _gaq || [];
+ 		 _gaq.push(['_setAccount', 'UA-38043463-1']);
+ 		 _gaq.push(['_trackPageview']);
+
+  		(function() {
+   		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+   		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+   		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  		})();
+		</script>
+		
+   		<script> 
         // wait for the DOM to be loaded 
         $(document).ready(function() { 
             // bind 'myForm' and provide a simple callback function 
@@ -46,55 +67,23 @@
                 alert("Thank you for your comment!"); 
             }); 
         }); 
-    </script> 
+   		</script> 
    </head>
-	<body>
-<div id="fb-root"></div>
 <script>
-  window.fbAsyncInit = function() {
-    // init the FB JS SDK
-    FB.init({
-      appId      : 'YOUR_APP_ID', // App ID from the App Dashboard
-      channelUrl : '//www.juliangetsahaircut.com', // Channel File for x-domain communication
-      status     : true, // check the login status upon init?
-      cookie     : true, // set sessions cookies to allow your server to access the session?
-      xfbml      : true  // parse XFBML tags on this page?
-    });
-
-    // Additional initialization code such as adding Event Listeners goes here
-
-  };
-
-  // Load the SDK's source Asynchronously
-  // Note that the debug version is being actively developed and might 
-  // contain some type checks that are overly strict. 
-  // Please report such bugs using the bugs tool.
-  (function(d, debug){
-     var js, id = 'facebook-jssdk', ref = d.getElementsByTagName('script')[0];
-     if (d.getElementById(id)) {return;}
-     js = d.createElement('script'); js.id = id; js.async = true;
-     js.src = "//connect.facebook.net/en_US/all" + (debug ? "/debug" : "") + ".js";
-     ref.parentNode.insertBefore(js, ref);
-   }(document, /*debug*/ false));
+$('nav li ul').hide().removeClass('fallback');
+$('nav li').hover(
+	function () {
+		$('ul', this).stop().slideDown(100);
+	},
+	function () {
+		$('ul', this).stop().slideUp(100);
+	}
+);
 </script>
-<div id="fb-root"></div>
-<script>(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=130835263727664";
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));
-</script>
-<script type="text/javascript">
-function startGallery() {
-var myGallery = new gallery($('myGallery'), {
-timed: false
-});
-}
-window.addEvent('domready', startGallery);
-</script>
+
+	<body>
 		<header>
+
 			<div id="update_bar">
 				<ul>
 					<li>
@@ -106,84 +95,156 @@ window.addEvent('domready', startGallery);
 								<li>
 									<div id="socialf"><a href="http://www.facebook.com/juliangetsahaircut" target="_blank"><img src="facebookf.png" alt="facebook" width="13px" ></a></div>
 								</li>
-							</ul>
-						</div>
-					</li>
-					<li>
-						<div id="topnav">
-							<ul>
 								<li>
-									<div class="topnav_image"><a href="#pigtails"><img src="pigtails_trans.png" width="35px" alt="pigtails"></a></div>
-								</li>
-								<li>
-									<div class="topnav_image"><a href="#2face"><img src="2face_trans.png" width="35px" alt="2face"></a></div>
-								</li>
-								<li>
-									<div class="topnav_image"><a href="#warrior"><img src="mongol_trans.png" width="35px" alt="mongol"></a></div>
-								</li>
-								<li>
-									<div class="topnav_image"><a href="#culdesac"><img src="culdesac_trans.png" width="35px" alt="culdesack"></a></div>
-								</li>
-								<li>
-									<div class="topnav_image"><a href="#bangs"><img src="bangs_trans.png" width="35px" alt="bangs"></a></div>
+									<div id="socialemail" target="_blank"><a href="mailto:?subject=Funny guy with a cool idea. Take a look (JulianGetsAHaircut.com).&amp;body= Hey! Hope you're doing well! Check out JulianGetsAHaircut.com. This guy came up with a really interesting way to raise money for cancer research and he's willing to have the most outrageous haircut for a month to do it. He is counting on your support and to help him by forwarding emails like this to friends and family. Please help me help his efforts! Thanks!" title="Share JulianGetsAHaircut.com by Email"><img src="email.png" alt="email" width="40px"></a></div>
 								</li>
 							</ul>
-						</div>
-					</li>
-					<li> 
-						<div id="countdown">
-							<iframe src="http://free.timeanddate.com/countdown/i3cnjy7w/n179/cf12/cm0/cu2/ct1/cs1/ca0/co0/cr0/ss0/cac000/cpc000/pct/tcfff/fs100/szw448/szh189/iso2013-05-24T00:00:00" frameborder="0" width="86" height="26"></iframe>
 						</div>
 					</li>
 				</ul>
-			</div>
-		</header>
+			</div>		
+			<div id="image_nav">
+			<nav>
+				<ul>	
+					<li>		
+						<div class="fixedlogo">
+							<a href="#top"><img src="headerimagefixed.png" width="200px" alt="Top"></a>
+						</div>	
+					</li>
+					<li>
+						<a href="#pigtails"><img src="pigtails_trans.png" width="35px" alt="Pigtails"></a>
+						<ul class="fallback">
+							<li><a href="#pigtails">INFO</a></li>
+						</ul>
+					</li>
+					<li>
+						<a href="#2face"><img src="2face_trans.png" width="35px" alt="Two Face"></a>
+						<ul class="fallback">
+							<li><a href="#2face">CHARITIES</a></li>
+						</ul>
+					</li>
+					<li>
+						<a href="#warrior"><img src="mongol_trans.png" width="35px" alt="Warrior"></a>
+						<ul class="fallback">
+							<li><a href="#culdesac">EMAIL</a></li>
+						</ul>
+					</li>
+					<li>
+						<a href="#culdesac"><img src="culdesac_trans.png" width="35px" alt="Culdesac"></a>
+						<ul class="fallback">
+							<li><a href="#warrior">OUTREACH</a></li>
+						</ul>
+					</li>
+					<li><a href="#bangs"><img src="bangs_trans.png" width="35px" alt="Bangs"></a>
+						<ul class="fallback">
+							<li><a href="#bangs">BIO</a></li>
+						</ul>
+					</li>
+						<div id="current_pics">
+							<ul>
+								<li>
+									<a href="https://www.facebook.com/Juliangetsahaircut/photos_stream" target="_blank"><img src="currrent_blank.png"width="30px"  alt="FB Photo Link"></a>
+								</li>
+								<li>
+									<img src="currrent_blank_me.png" width="200px"  alt="FB Photo Link">
+								</li>
+							</ul>
+						</div>			
+				</ul>
+			</nav>
+
+		</div>
+		</header>			
 		<div class="wrapper">
+			<a name="top"></a>
 			<div id="level_0">
 				<div id="main">
+					<div id="0info">
+						<div id="helpme"><img src="helpme.png" alt="Help Me" width="110px" ></div>
+						<div id="thecuts"><img src="thecuts.png" alt="The Cuts"width="110px" ></div>
+						<div id="navigation"><img src="navigation.png" alt="Navgation" width="110px"></div>
+						<div id="scroll"><img src="scroll.png" alt="Scroll" width="110px"></div>
+						<div id="checkmeout"><img src="checkmeout.png" alt="check me out" width="110px"></div>
+
+					</div>
 					<div id="headerimage">					
-						<img src="headerimage2.png" width="600px" alt="juliangetsahaircut">
+						<img src="headerimage2.png" width="400px" alt="juliangetsahaircut">
+					</div>
+					<div id="header_desc">
+						<p><h2>Help me reach my fundraising goal and pick my next haircut. All we need is two weeks. And a razor. </h2></p>
 					</div>
 				</div>
-				<div class="nav">
+				<div class="level_desc">
 					<ul>
 						<li>
-							<div class="nav_image"><a href="#pigtails"><img src="pigtails_trans.png" width="150px" alt="pigtails"></a></div>
-						</li>
-						<li>
-							<div class="nav_image"><a href="#2face"><img src="2face_trans.png" width="150px" alt="2face"></a></div>
-						</li>
-						<li>
-							<div class="nav_image"><a href="#warrior"><img src="mongol_trans.png" width="150px" alt="mongol"></a></div>
-						</li>
-						<li>
-							<div class="nav_image"><a href="#culdesac"><img src="culdesac_trans.png" width="150px" alt="culdesack"></a></div>
-						</li>
-						<li>
-							<div class="nav_image"><a href="#bangs"><img src="bangs_trans.png" width="150px" alt="bangs"></a></div>
+							<ul>
+								<li>
+									<div class="nav_image"><a href="#pigtails"><img src="pigtails_trans.png" width="150px" alt="pigtails"></a></div>
+								</li>
+								<li>
+									<div class="overlay">Pigtails</div>
+								</li>
+							</ul>
+							<ul>
+								<li>
+									<div class="nav_image"><a href="#2face"><img src="2face_trans.png" width="150px" alt="2face"></a></div>
+								</li>
+								<li>
+									<div class="overlay">Two Face</div>
+								</li>
+							</ul>
+							<ul>
+								<li>
+									<div class="nav_image"><a href="#warrior"><img src="mongol_trans.png" width="150px" alt="mongol"></a></div>
+								</li>
+								<li>
+									<div class="overlay">Warrior</div>
+								</li>
+							</ul>
+							<ul>
+								<li>
+									<div class="nav_image"><a href="#culdesac"><img src="culdesac_trans.png" width="150px" alt="culdesack"></a></div>
+								</li>
+								<li>
+									<div class="overlay">Cul-De-Sac</div>
+								</li>
+							</ul>
+							<ul>
+								<li>
+									<div class="nav_image"><a href="#bangs"><img src="bangs_trans.png" width="150px" alt="bangs"></a></div>
+								</li>
+								<li>
+									<div class="overlay">Bangs</div>
+								</li>
+							</ul>
 						</li>
 					</ul>
 				</div>
+
 			</div>
 			
 			<a name="pigtails"></a>
 			<div id="bkg_1">
 				<div id="level_1">
+					<div class="intro">
+						<p><h1>THE GAME PLAN</h1></p>
+						<p><h2>Navigate the length of this page for info, all the haircuts, and the email form.</h2></p>
+					</div>
 				<div id="content_1">
+						<p>
+							<h2>1. Two Week Challenges</h2>
+							<h1>UNTIL March 24th 2013, you and I will perform a series of <a href="#culdesac">two-week challenges</a>. That way we can give everything we have, even if we don't have much money. <h3>(Example: Compliment the first person you meet today, or post an inspirational message to a fighter on the facebook page. More info below.)</h3></h1>				
+						</p>
+					
+						<p>
+							<h2>2. Choosing my haircut</h2>
+							<h1>BETWEEN March 24th and April 6th, voting opens. You will donate your money to a specific haircut. Every $10 is 12 votes. The haircut with the most votes wins. Pick your favorite, tell your friends and family and laugh it up!</h1>
+						</p>
+						<br>
+						<br>	
 					<p>
-						<h2>WHAT IT&#39S ALL ABOUT</a></h2>
-						<h3>From now until April 6th 2013, join me on my quest to raise $10,000 for cancer research. I have been growing my hair out for two full years to shave it all off in the grand (and ridiculous) culminating event that is JulianGetsAHaircut.com.</h3>
-					<br>
-					<br>	
-					<p>
-						<h2>THE WAY IT WORKS</h2>
-						<h3>Two weeks of doing to change lives. Through a series of four "two week challenges", both you and I will be able to donate not our money, but rather our time, our energy and our hearts to some very deserving people. For the final two weeks, I put my next haircut in your hands (ok, your wallets) where your donations are your votes. The haircut with the most votes at the end of the two weeks will be etched/carved/cut/shaved into my head for ONE WHOLE MONTH! Your options for my haircut run the right side of this page. Haircut voting opens March 24th, so mark your calendars.</h3>
-					</p>
-					<br>
-					<br>
-					<p>
-						<h2>KEEP IN TOUCH</h2>
-						<h3>I&#39ll keep you updated with emails, so you never miss a two week challenge, video or story. I promise to keep them intersting and brief as long as you promise to forward them to everyone you know. Pay it forward to connect our networks and together we&#39re bound to do something great. </h3>
+						<h2>HOW WE&#39RE GONNA GET THERE</h2>
+						<h1><a href="#warrior">EMAIL</a>. I need you to subscribe your email so that I can let you know about the two week challenges. It really is important to me that you give more than money and offer a part of yourself to someone in need. Please fill out <a href="#warrior">this form</a>. Also, <a href="http://www.facebook.com/juliangetsahaircut">Facebook </a>and <a href="http://www.twitter.com/julianshaircut">Twitter</a> will be used for the two week challenges so make sure you like and follow. 
 					</p>
 				</div>
 				<div id="image1">
@@ -195,19 +256,24 @@ window.addEvent('domready', startGallery);
 			<a name="2face"></a>
 			<div id="bkg_2">
 			<div id="level_2">
+				<div class="intro">
+					<p><h1>SUPPORT TWO GREAT CAUSES</h1></p>
+					<p><h2>100% of both money and hair will be donated.</h2></p>
+				</div>
 				<div id="content_2">
-					<h2><p>SUPPORT A GREAT CAUSE</p></h2>
 					<div class="charity">
 						<div id="MSK">
-							<p><a href="http://www.mskcc.org/" target="_blank"><img src="mskcc-logo.png" width="400px" alt="MSK"></a></p>
-							<p>The <b>Strategic Initiatives Fund </b>provides annual funding for MSKCC&#39s leadership to direct resources to the most promising initiatives and pressing needs of the institution. This fund speeds the most promising work, thereby shortening the interval between the time new discoveries made in the laboratory are delivered to patients. It also provides seed money for vital new research opportunities as they arise and ensures the necessary means to attract, recruit, and retain the best and brightest researchers and physicians. Lastly, this fund supports novel research endeavors that might otherwise go unfunded.
+							<!--<h2><p>SUPPORT A GREAT CAUSE</p></h2>-->
+							<p><a href="http://www.mskcc.org/" target="_blank"><img src="mskcc-logo.png" height="100px" alt="MSK"></a></p>
+							<p>The <b>Strategic Initiatives Fund </b>provides annual funding for <a href="http://www.mskcc.org" target="_blank">Memorial Sloan-Kettering Cancer Center</a>&#39s (MSKCC) leadership to direct resources to the most promising initiatives and pressing needs of the institution. This fund speeds the most promising work, thereby shortening the interval between the time new discoveries made in the laboratory are delivered to patients. It also provides seed money for vital new research opportunities as they arise and ensures the necessary means to attract, recruit, and retain the best and brightest researchers and physicians. Lastly, this fund supports novel research endeavors that might otherwise go unfunded.
 							</p>
+							<p><strong>Rather donate before March 24th? Awesome! I can't let your donation count toward choosing a haircut, but please feel free to do so on <a href="http://mskcc.convio.net/goto/juliangetsahaircut" target="_blank" alt="Giving Page">my personal giving page</a>.</strong></p>
 							<p>ALL PROCEEDS WILL BE DONATED TO MSKCC</p>
 						</div>
 						<div id="PBL">
 							<div id="image"><p><a href="http://www.pantene.com/en-US/PanteneBeautifulLengths/Pages/default.aspx" target="_blank"><img src="pantene.png" alt="PBL" width="150px"></a></p></div>
 							<div id="description"><p><b>Pantene Beautiful Lengths</b> helps women fighting cancer receive free, real-hair wigs. In fact, they&#39re giving over 1 million dollars this year to strengthen the cause. See how others have shown their support and get inspired at Pantene.com.</p>
-								<p>ALL HAIR BOTH BEFORE AND AFTER THE CUTS WILL BE DONATED TO PBL</p>
+								<p>ALL HAIR BOTH BEFORE AND AFTER THE MONTH WITH THE OUTRAGEOUS HAIRCUT WILL BE DONATED TO PBL</p>
 							</div>
 						</div>
 					</div>
@@ -222,46 +288,49 @@ window.addEvent('domready', startGallery);
 			<a name="warrior"></a>
 			<div id="bkg_3">
 			<div id="level_3">
+				<div class="intro">
+						<p><h1>PAY IT FORWARD</h1></p>
+						<p><h2>I'm going to need your help. Here's how.</h2></p>
+					</div>
 				<div id="image3">
 					<img src="frame_warrior.png" alt="warrior" width="400px">
 				</div>
 				<div id="content_3">
-					<h2><p>SPREAD THE WORD</p></h2>
-					<h3>I am counting on you to forward my emails and help grow my reach. We all know people that have been affected. Help me help them.</h3>
-						<div id="email_form">  
-							<form name="emailaddress" action="emaillist.asp">  
- 								<fieldset id="emails">
- 									<input onfocus="this.value=''" id="form_words" type="text" size="60px"  value="i.e. John@SmithRocks.com" />
-    								<br><input type="submit" name="submit" class="button" id="submit_btn" value="Let's Start Doing!" />  
- 								</fieldset>  
-							</form>  
-						</div>  
-					<div id="thanks">
-						<h1><p>THANK YOU FOR YOUR PARTICIPATION, TIME, AND ASSISTANCE.</p></h1>
+					<p><h3><strong>Never miss a two-week challenge. </strong> <br><br><small>Your email address will remain confidential and secure. <br>I am the only person that has permission to contact you.</small> </p></h3>
+					<div id="email_form">  	
+						<div id="mc_embed_signup"><br>
+							<form action="http://juliangetsahaitcut.us6.list-manage1.com/subscribe/post?u=3970d929a0c7d0327bb563447&amp;id=88c9198644" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+							<input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
+							<div class="clear">
+								<input type="submit" value="Let's Start Doing!" name="subscribe" id="mc-embedded-subscribe" class="button">
+							</div>
+						</form>
+						</div><!--End mc_embed_signup-->
+						<br>
+						<div id="thanks">
+							<h1><p>THANK YOU FOR YOUR PARTICIPATION, TIME, AND ASSISTANCE.</p></h1>
+						</div>
 					</div>
 				</div>
-
 			</div>
 			</div>
-			
+			<div id="arnold">
+				<img src="arnold.png" alt="ANOLD" width="120px">
+			</div>
 			<a name="culdesac"></a>
 			<div id="bkg_4">
 			<div id="level_4">
+				<div id="intro">
+					<p><h1>READY? SET. GO.</h1></p>
+					<p><h2>Well?! Don't just sit there. Do something!</h2></p>
+				</div>
 				<div id="content_4">
-					<h2><p>EARN VOTES</p></h2>
-					<h1>Before monetary donations open on March 24th, rack up votes and let everyone know which haircut is your favorite. I&#39ll message you a code to redeem all your hard earned votes. Sharing is caring.  #thegoodolddays </h1>
-					<br>
-					<h3><p>Facebook Like = 10 Votes</p>
-					<br>
-					<p>Twitter Follow   = 10 Votes</p>
-					<p>TwitPic@ = 20 Votes</p>
-					<p>Retweet  = 30 Votes</p>
-					<p>	+____________________</p>
-					<p> #VOTESONVOTESONVOTES</p>
-					</h3>
-					<div id="arnold">
-						<img src="arnold.png" alt="ANOLD" width="120px">
-					</div>
+					<p><h2>TWO-WEEK CHALLENGES</h2></p>
+					<h3>These are a series of two-week campaigns designed to connect you with fighters and promote this idea. Participation is optional, but it is encouraged and fun. </h3>
+					<br><p><h1>1/27-2/9</h1><h3><strong>SOCIAL WELFARE:</strong> Help me reach my goal of 10,000 <a href="http://www.facebook.com/juliangetsahaircut" alt=" facebook"target="_blank">LIKES</a>! <a href="mailto:juliangetsahaircut%40gmail.com?subject=I%20WANT%20TO%20SPONSOR%20JULIANGETSAHAIRCUT.com&body=In%20the%20body%20of%20this%20email%2C%20please%20include%20the%20following%20information%3A%20%0A-Name%20%0A-Company%0A-Email%20address%0A-Phone%20number%0A%0A%24100%20will%20land%20you%20a%20spot%20on%20my%20page.%20%2450%20will%20get%20you%20on%20my%20t-shirts.%20No%20tobacco%20related%20organizations%20allowed.%20%0A">SPONSOR</a> my fundraising costs! <a href="http://www.twitter.com/julianshaircut" alt="twitter"target="_blank">FOLLOW ME</a> as I go places!</h3></p>
+					<br><p><h1>2/10-2/23</h1><h3><strong>RANDOM ACTS OF KINDNESS:</strong> I'll email you with the day's RAK and you do it. Simple as that. <a href="http://www.youtube.com/juliangetsahaircut" alt="Youtube Channel"target="_blank">Here's an example.</a></h3>(coming soon)</p>
+					<br><p><h1>2/24-3/9</h1><h3><strong>IMPROVE A LIFE:</strong> Connect with patients playing WordsWithFriends. Write a note to a fighter or their family. Know anyone interested? Have them fill out <a href="improvealife" alt="FormLink">this form</a>. </h3>(coming soon)</p>
+					<br><p><h1>3/10-3/23</h1><h3><strong>BEAUTIFUL LENGTHS:</strong> Donate <u>your</u> hair! I'm not expecting you to go all out like me, but hopefully <a href="greatclips" target="_blank"alt="coupon">this coupon</a> can entice you to get a cut. Be sure to read all the <a href="http://www.pantene.com/en-US/PanteneBeautifulLengths/Details/beautiful-lengths-make-the-cut.aspx" alt="Beutiful Lengths Rules">rules for donating</a> first!</h3>(coming soon)</p> 				
 				</div>
 				<div id="image4">
 					<img src="frame_culdsac.png" alt="culdesack" width="400px">
@@ -272,63 +341,59 @@ window.addEvent('domready', startGallery);
 			<a name="bangs"></a>
 			<div id="bkg_5">
 			<div id="level_5">
-				<div id="content_5">
-					<div id="about">	
-						<h2><p>GET TO KNOW ME</p></h2>
-						<h3><p>Hey hey hey! I&#39m Julian! </p>
-						<p>I will be graduating from Columbia University in New York City this May with a BS in Mechanical Engineering with sights on startups/entrepreneurship.</p>
-						<p>When people ask me why I do it, my answer is simply, WHY NOT?! I have the luxury of time and health and would easily give either to people that could use some more of it. </p>
-						<p>I was voted class clown and most involved in high school and love new experiences - especially those that challenge me, hence the creatin and development of this site. </p>
-						<p>I understand the pain of sickness but also believe in the power of smiles. Help me spread the smiles while battling a serious matter. <a href="mystory" alt="MyStory">Read my story here</a>.</p>
-						<p>If you have any other questions, want to become a sponsor, or want to put me on you show/station/wall/bed, feel free to <a href="mailto:jjb2163@columbia.edu subject=coments">email me</a>. </p></h3>
-					</div>
+				<div class="intro">
+					<p><h1>GET TO KNOW ME</h1></p>
+					<p><h2>Read my bio, check out my story, email me if you'd like to know more.</h2></p>
 				</div>
-						<!--<a href="#" onClick="window.open('file:///Users/Julian/Desktop/JulianGetsAHaircut/website/haircut_iframe/1.jpg','previous','resizable,height=500,width=650,scrollbars=no'); return false;">News archive</a>><iframe name="previous" id="previous" src="file:///Users/Julian/Desktop/JulianGetsAHaircut/website/haircut_iframe/1.jpg" scrolling="auto" marginwidth="0" marginheight="0" frameborder="0" vspace="0" hspace="0" style="overflow:visible; width:100&#37;; height:100%;"></iframe></a> </p></h3>
-				<div id="myGallery">
-					<div class="imageElement">
-						<h3>Item 1 Title</h3>
-						<p>Item 1 Description</p>
-						<img src="haircut_iframe/1.jpg" class="full" />
-						<img src="haircut_iframe/1.jpg" class="thumbnail" width="20%"/>
-					</div>
-					<div class="imageElement">
-						<h3>Item 2 Title</h3>
-						<p>Item 2 Description</p>
-						<img src="haircut_iframe/2.jpg" class="full" />
-						<img src="haircut_iframe/2.jpg" class="thumbnail" width="20%"/>
-					</div>
-					<div class="imageElement">
-						<h3>Item 3 Title</h3>
-						<p>Item 3 Description</p>
-						<img src="haircut_iframe/3.jpg" class="full" />
-						<img src="haircut_iframe/3.jpg" class="thumbnail" width="20%"/>
-					</div>
-					<div class="imageElement">
-						<h3>Item 4 Title</h3>
-						<p>Item 4 Description</p>
-						<img src="haircut_iframe/4.jpg" class="full" />
-						<img src="haircut_iframe/4.jpg" class="thumbnail" width="20%"/>
-					</div>
-					<div class="imageElement">
-						<h3>Item 5 Title</h3>
-						<p>Item 5 Description</p>
-						<img src="haircut_iframe/5.jpg" class="full" />
-						<img src="haircut_iframe/5.jpg" class="thumbnail" width="20%"/>
-					</div>
-				</div>
-			</div>-->
-				
 				<div id="image5">
 					<img src="frame_bangs.png" alt="bangs" width="400px">
 				</div>
+				<div id="content_5">
+					<div id="about">	
+						<h3><p>Hey hey hey! I&#39m Julian! </p>
+						<p>I will be graduating from Columbia University in New York City this May with a BS in Mechanical Engineering and sights on entrepreneurship.</p>
+						<p>When people ask me why I am doing this, my answer is simple: I have felt the emotional and physical pain of sickness but also believe in the healing power of joy. In the memories of Dawn Garcia, my grandma Mary, my uncle Seymour and everyone else fighting, help me raise as much as we can. If you do not already know, I encourage you to <a href="mystory.html" target="_blank" alt="MyStory">read my story here</a>. </p>
+						<p>As the undesputed Class Clown and Most Involved of high school it is natural that I gravitated to a grand act like this. My love of new experiences&#8211; especially those that challenge me&#8211; further lead to the creation and development of this site. </p>
+						<p>If you have any other questions, want to become a sponsor, or want to put me on your show/station/ blog/site, I would appreciate it so feel free to <a href="mailto:juliangetsahaircut@gmail.com?subject=?General Questions?">email me</a>. </p></h3>
+					</div>
+				</div>
 			</div>
+			</div>
+			
+			<div id="bkg_sponsors">
+				<div id="sponsors">
+					<h1><p>Team Players</p></h1>
+					<p><h2>The companies or organizations listed below have made the effort to significantly support me in some way. If you would like to do the same, please <a href="mailto:juliangetsahaircut@gmail.com?subject=Put me in Coach!">email me</a>.</h2></p>
+					<div id="sponsors_content">
+						<div class="image">
+							<a href="http://www.pledge4good.com"target="_blank"><img src="p4g_sponsors.png" alt="p4g" width="300px"></a>
+						</div>
+						<div class="image">
+							<a href="http://www.venmo.com"target="_blank"><img src="venmo.png" alt="venmo" width="300px"></a>
+						</div>
+						<div class="image">
+							<a href="http://www.mailchimp.com" target="_blank"><img src="mailchimp.png" alt"MailChimp" width="300px"></a>
+						</div>
+						<div class="image">
+							<a href="mailto:juliangetsahaircut@gmail.com?subject=Put me in Coach!"><img src="sponsor_you.png" alt"NewSponsor" width="300px"></a>	
+						</div>
+					</div>
+				</div>
 			</div>
 		</div>		<!--wrapper-->
 		
-		<footer>		
-			<div id="sponsors">
-				<h1><p>THIS COULD BE YOU!</p></h1>
-			</div>
-		</footer>
+		<div id="footer">
+			<ul>
+				<li>
+					<div id="left_content">
+						<div id="image"><img src="headerimage2.png" alt="footer Image" width="200px"></div>
+						<p> JulianGetsAHaircut.com is a website designed to fundraise and donate the funds and time of its users to Memorial Sloan-Kettering Cancer Center and the hair of Julian Bongiorno to Pantene's Beautiful Lengths. This website was designed and developed by <a href="http://julianbongiorno.me" alt="Personal Website" target="_blank">Julian Bongiorno</a>. The idea, implementation, and follow-up were all done himself. He is available to hire and is accepting offers of employment.</p>
+						<h1><p><a href="terms.html" alt="Terms">Terms</a> | <a href="mystory.html" alt="mystory">My Story</a> | <a href="mailto:juliangetsahaircut@gmail.com" alt="Contact">Contact Me</a></p></h1>
+					</div>
+				</li>
+				<li><div id="footer_image"><img src="current_real.png" alt="current_real" width="200px"></div>	
+				</li>
+			</ul>
+		</div>
 	</body>
 </html>

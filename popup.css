@@ -1,0 +1,45 @@
+.popup{
+	z-index:99;
+	height:100%;
+	width:100%;
+	position:fixed;
+}
+#pu_bkg{
+	background-color:black;
+	opacity:.8;
+	height:100%;
+}
+#pu_image{
+	position:absolute;
+	top:20%;
+	left:22%;
+	opacity:1;
+}
+#pu_content{
+	position:fixed;
+	background-color:white:
+	margin-left:auto;
+	margin-right:auto:
+	margin-top:400px;
+	height:600px;
+	width:800px;
+	border-radius:10px;
+	opacity:1;
+}
+.exit{
+	position:absolute;
+	top:-5px;
+	left:580px;
+}
+
+			<div class="popup" >
+				<div id="pu_bkg"> 
+					<div id="pu_image">
+						<div class="exit"><img src="x.png" alt="exit"></div>
+						<img src="popupbkg.png" alt="popup bkg" width="600px">
+					</div>
+				</div>
+				<div id="pu_content">	
+					fdkfna
+				</div>
+			</div>

@@ -12,6 +12,7 @@
 <coolItem id="additions" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.debug.ui.launchActionSet" itemType="typeToolBarContribution" x="100" y="22"/>
 <coolItem id="org.eclipse.jdt.ui.JavaElementCreationActionSet" itemType="typeToolBarContribution" x="62" y="22"/>
+<coolItem id="org.eclipse.ui.edit.text.actionSet.presentation" itemType="typeToolBarContribution" x="54" y="22"/>
 <coolItem id="org.eclipse.wst.xml.ui.perspective.NewFileToolBar" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="org.eclipse.wst.xml.ui.design.DesignToolBar" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="org.eclipse.search.searchActionSet" itemType="typeToolBarContribution" x="134" y="22"/>
@@ -19,6 +20,7 @@
 <coolItem id="group.nav" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="152" y="22"/>
 <coolItem id="group.editor" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.ui.DefaultTextEditor" itemType="typePlaceholder" x="-1" y="-1"/>
 <coolItem id="com.aptana.editor.js" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="com.aptana.editor.css" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="com.aptana.editor.html" itemType="typeToolBarContribution" x="-1" y="-1"/>
@@ -31,39 +33,29 @@
 <info part="DefaultEditorWorkbook">
 <folder appearance="1" expanded="2">
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="0"/>
 <part id="1"/>
+<part id="0"/>
 <part id="2"/>
 <part id="3"/>
-<part id="4"/>
-<part id="5"/>
 </presentation>
 </folder>
 </info>
 </editorArea>
-<editor id="com.aptana.editor.html" name="index.html" partName="index.html" title="index.html" tooltip="/Users/Julian/Desktop/JulianGetsAHaircut/website/index.html" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" uri="file:/Users/Julian/Desktop/JulianGetsAHaircut/website/index.html"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="9884" selectionTopPixel="3193"/>
+<editor id="com.aptana.editor.css" name="style.css-toPush" partName="style.css-toPush" title="style.css-toPush" tooltip="/Users/Julian/Desktop/JulianGetsAHaircut/website/style.css-toPush" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" uri="file:/Users/Julian/Desktop/JulianGetsAHaircut/website/style.css-toPush"/>
+<editorState selectionHorizontalPixel="0" selectionLength="9" selectionOffset="4806" selectionTopPixel="4950"/>
 </editor>
-<editor activePart="true" focus="true" id="com.aptana.editor.css" name="style.css" partName="style.css" title="style.css" tooltip="/Users/Julian/Desktop/JulianGetsAHaircut/website/style.css" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" uri="file:/Users/Julian/Desktop/JulianGetsAHaircut/website/style.css"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="4868" selectionTopPixel="5148"/>
+<editor id="com.aptana.editor.html" name="index.html-toPush" partName="index.html-toPush" title="index.html-toPush" tooltip="/Users/Julian/Desktop/JulianGetsAHaircut/website/index.html-toPush" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" uri="file:/Users/Julian/Desktop/JulianGetsAHaircut/website/index.html-toPush"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="7260" selectionTopPixel="2505"/>
 </editor>
-<editor id="com.aptana.editor.html" name="removed html code" partName="removed html code" title="removed html code" tooltip="/Users/Julian/Desktop/JulianGetsAHaircut/website/removed html code" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" uri="file:/Users/Julian/Desktop/JulianGetsAHaircut/website/removed%20html%20code"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
-</editor>
-<editor id="com.aptana.editor.js" name="javascript" partName="javascript" title="javascript" tooltip="/Users/Julian/Desktop/JulianGetsAHaircut/website/javascript" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" uri="file:/Users/Julian/Desktop/JulianGetsAHaircut/website/javascript"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1876" selectionTopPixel="0"/>
-</editor>
-<editor id="com.aptana.editor.html" name="mystory" partName="mystory" title="mystory" tooltip="/Users/Julian/Desktop/JulianGetsAHaircut/website/mystory" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" uri="file:/Users/Julian/Desktop/JulianGetsAHaircut/website/mystory"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1440" selectionTopPixel="255"/>
+<editor activePart="true" focus="true" id="com.aptana.editor.html" name="donate.html" partName="donate.html" title="donate.html" tooltip="/Users/Julian/Desktop/JulianGetsAHaircut/website/donate.html" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" uri="file:/Users/Julian/Desktop/JulianGetsAHaircut/website/donate.html"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="3947" selectionTopPixel="1267"/>
 </editor>
 <editor id="com.aptana.editor.css" name="otherpages.css" partName="otherpages.css" title="otherpages.css" tooltip="/Users/Julian/Desktop/JulianGetsAHaircut/website/otherpages.css" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" uri="file:/Users/Julian/Desktop/JulianGetsAHaircut/website/otherpages.css"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="495" selectionTopPixel="45"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="2445" selectionTopPixel="639"/>
 </editor>
 </editors>
 <views>
@@ -79,9 +71,7 @@
 </view>
 <view id="org.eclipse.mylyn.tasks.ui.views.tasks" partName="Task List">
 <viewState linkWithEditor="true" presentation="org.eclipse.mylyn.tasks.ui.categorized">
-<sorter groupBy="CATEGORY_QUERY">
-<sorter>
-<sort0 sortDirection="1" sortKey="PRIORITY"/>
+<sorter groupBy="CATEGORY_QUERY">&#x0A;<sorter>&#x0A;<sort0 sortDirection="1" sortKey="PRIORITY"/>
 <sort1 sortDirection="1" sortKey="RANK"/>
 <sort2 sortDirection="1" sortKey="DATE_CREATED"/>
 <sort3 sortDirection="1" sortKey="NONE"/>
@@ -100,7 +90,7 @@
 <view id="org.eclipse.jdt.ui.SourceView" partName="Declaration"/>
 <view id="org.eclipse.jdt.ui.JavadocView" partName="Javadoc"/>
 </views>
-<perspectives activePart="com.aptana.editor.css" activePerspective="org.eclipse.jdt.ui.JavaPerspective">
+<perspectives activePart="com.aptana.editor.html" activePerspective="org.eclipse.jdt.ui.JavaPerspective">
 <perspective editorAreaTrimState="1" editorAreaVisible="1" fixed="0" version="0.016">
 <descriptor class="org.eclipse.jdt.internal.ui.JavaPerspectiveFactory" id="org.eclipse.jdt.ui.JavaPerspective" label="Java"/>
 <alwaysOnActionSet id="org.eclipse.egit.ui.navigation"/>
@@ -143,6 +133,7 @@
 <show_view_action id="org.eclipse.mylyn.tasks.ui.views.tasks"/>
 <show_view_action id="org.eclipse.wb.core.StructureView"/>
 <show_view_action id="org.eclipse.wb.core.PaletteView"/>
+<show_in_time id="org.eclipse.egit.ui.RepositoriesView" time="1360120645414"/>
 <new_wizard_action id="org.eclipse.jdt.ui.wizards.JavaProjectWizard"/>
 <new_wizard_action id="org.eclipse.jdt.ui.wizards.NewPackageCreationWizard"/>
 <new_wizard_action id="org.eclipse.jdt.ui.wizards.NewClassCreationWizard"/>
@@ -204,7 +195,7 @@
 </info>
 <info part="org.eclipse.ui.editorss" ratio="0.25" ratioLeft="254" ratioRight="762" relationship="2" relative="left"/>
 <info folder="true" part="bottom" ratio="0.75" ratioLeft="474" ratioRight="158" relationship="4" relative="org.eclipse.ui.editorss">
-<folder appearance="2" expanded="0">
+<folder appearance="2" expanded="2">
 <page content="org.eclipse.ui.views.ProblemView" label="LabelNotFound"/>
 <page content="org.eclipse.jdt.ui.JavadocView" label="LabelNotFound"/>
 <page content="org.eclipse.jdt.ui.SourceView" label="LabelNotFound"/>
@@ -216,20 +207,25 @@
 </folder>
 </info>
 <info folder="true" part="org.eclipse.ui.internal.ViewStack@2b5d70ae" ratio="0.7493438" ratioLeft="571" ratioRight="191" relationship="2" relative="org.eclipse.ui.editorss">
-<folder appearance="2" expanded="0">
+<folder appearance="2" expanded="2">
 <page content="org.eclipse.mylyn.tasks.ui.views.tasks" label="LabelNotFound"/>
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
 </folder>
 </info>
 <info folder="true" part="right" ratio="0.5" ratioLeft="237" ratioRight="237" relationship="4" relative="org.eclipse.ui.internal.ViewStack@2b5d70ae">
-<folder appearance="2" expanded="0">
+<folder appearance="2" expanded="2">
 <page content="org.eclipse.ui.views.ContentOutline" label="LabelNotFound"/>
 <page content="org.eclipse.ui.texteditor.TemplatesView" label="LabelNotFound"/>
 <page content="org.eclipse.ant.ui.views.AntView" label="LabelNotFound"/>
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
 </folder>
 </info>
-<info part="org.eclipse.egit.ui.RepositoriesView" ratio="0.5996835" ratioLeft="379" ratioRight="253" relationship="4" relative="left"/>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@6af9e42f" ratio="0.5996835" ratioLeft="379" ratioRight="253" relationship="4" relative="left">
+<folder appearance="2" expanded="2">
+<page content="org.eclipse.egit.ui.RepositoriesView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+</folder>
+</info>
 </mainWindow>
 </layout>
 </perspective>
@@ -237,158 +233,151 @@
 <workingSets/>
 <navigationHistory>
 <editors>
-<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.html" uri="file:/Users/Julian/Desktop/JulianGetsAHaircut/website/index.html"/>
-<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.css" uri="file:/Users/Julian/Desktop/JulianGetsAHaircut/website/style.css"/>
+<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.html" uri="file:/Users/Julian/Desktop/JulianGetsAHaircut/website/donate.html"/>
+<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.css" uri="file:/Users/Julian/Desktop/JulianGetsAHaircut/website/otherpages.css"/>
+<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.html" uri="file:/Users/Julian/Desktop/JulianGetsAHaircut/website/PigtailsFrame.html"/>
+<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.html" uri="file:/Users/Julian/Desktop/JulianGetsAHaircut/website/twofaceFrame.html"/>
+<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.html" uri="file:/Users/Julian/Desktop/JulianGetsAHaircut/website/culdesacFrame.html"/>
+<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.html" uri="file:/Users/Julian/Desktop/JulianGetsAHaircut/website/warriorFrame.html"/>
+<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.html" uri="file:/Users/Julian/Desktop/JulianGetsAHaircut/website/bangsFrame.html"/>
 </editors>
-<item historyLabel="index.html" index="0">
-<position info="not_deleted" x="10299" y="0"/>
+<item historyLabel="PigtailsFrame.html" index="2">
+<position info="not_deleted" x="4170" y="0"/>
 </item>
-<item historyLabel="style.css" index="1">
-<position info="not_deleted" x="5325" y="0"/>
+<item historyLabel="donate.html" index="0">
+<position info="not_deleted" x="5262" y="0"/>
 </item>
-<item historyLabel="index.html" index="0">
-<position info="not_deleted" x="10299" y="0"/>
+<item historyLabel="otherpages.css" index="1">
+<position info="not_deleted" x="5435" y="0"/>
 </item>
-<item historyLabel="style.css" index="1">
-<position info="not_deleted" x="5737" y="0"/>
+<item historyLabel="PigtailsFrame.html" index="2">
+<position info="not_deleted" x="4170" y="0"/>
 </item>
-<item historyLabel="index.html" index="0">
-<position info="not_deleted" x="10299" y="0"/>
+<item historyLabel="otherpages.css" index="1">
+<position info="not_deleted" x="5371" y="0"/>
 </item>
-<item historyLabel="style.css" index="1">
-<position info="not_deleted" x="5705" y="0"/>
+<item historyLabel="donate.html" index="0">
+<position info="not_deleted" x="5378" y="0"/>
 </item>
-<item historyLabel="index.html" index="0">
+<item historyLabel="otherpages.css" index="1">
+<position info="not_deleted" x="5154" y="0"/>
+</item>
+<item historyLabel="donate.html" index="0">
+<position info="not_deleted" x="5359" y="0"/>
+</item>
+<item historyLabel="PigtailsFrame.html" index="2">
+<position info="not_deleted" x="4170" y="0"/>
+</item>
+<item historyLabel="otherpages.css" index="1">
+<position info="not_deleted" x="468" y="2"/>
+</item>
+<item historyLabel="donate.html" index="0">
+<position info="not_deleted" x="3752" y="0"/>
+</item>
+<item historyLabel="otherpages.css" index="1">
+<position info="not_deleted" x="5152" y="2"/>
+</item>
+<item historyLabel="donate.html" index="0">
+<position info="not_deleted" x="3752" y="0"/>
+</item>
+<item historyLabel="PigtailsFrame.html" index="2">
+<position info="not_deleted" x="4170" y="0"/>
+</item>
+<item historyLabel="otherpages.css" index="1">
+<position info="not_deleted" x="5152" y="2"/>
+</item>
+<item historyLabel="twofaceFrame.html" index="3">
 <position/>
 </item>
-<item historyLabel="style.css" index="1">
+<item historyLabel="otherpages.css" index="1">
+<position info="not_deleted" x="5648" y="0"/>
+</item>
+<item historyLabel="donate.html" index="0">
+<position info="not_deleted" x="3752" y="0"/>
+</item>
+<item historyLabel="otherpages.css" index="1">
+<position info="not_deleted" x="5648" y="0"/>
+</item>
+<item historyLabel="donate.html" index="0">
+<position info="not_deleted" x="3752" y="0"/>
+</item>
+<item historyLabel="donate.html" index="0">
+<position info="not_deleted" x="3604" y="0"/>
+</item>
+<item historyLabel="otherpages.css" index="1">
+<position info="not_deleted" x="6054" y="0"/>
+</item>
+<item historyLabel="donate.html" index="0">
+<position info="not_deleted" x="3600" y="0"/>
+</item>
+<item historyLabel="otherpages.css" index="1">
+<position info="not_deleted" x="1899" y="0"/>
+</item>
+<item historyLabel="donate.html" index="0">
+<position info="not_deleted" x="3321" y="0"/>
+</item>
+<item historyLabel="twofaceFrame.html" index="3">
 <position/>
 </item>
-<item historyLabel="index.html" index="0">
-<position info="not_deleted" x="10134" y="0"/>
+<item historyLabel="otherpages.css" index="1">
+<position info="not_deleted" x="2065" y="0"/>
 </item>
-<item historyLabel="style.css" index="1">
-<position/>
+<item historyLabel="donate.html" index="0">
+<position info="not_deleted" x="3321" y="0"/>
 </item>
-<item historyLabel="index.html" index="0">
-<position info="not_deleted" x="10402" y="0"/>
+<item historyLabel="otherpages.css" index="1">
+<position info="not_deleted" x="2065" y="0"/>
 </item>
-<item historyLabel="style.css" index="1">
-<position info="not_deleted" x="5847" y="0"/>
+<item historyLabel="donate.html" index="0">
+<position info="not_deleted" x="5187" y="0"/>
 </item>
-<item historyLabel="index.html" index="0">
-<position info="not_deleted" x="10402" y="0"/>
+<item historyLabel="otherpages.css" index="1">
+<position info="not_deleted" x="2445" y="0"/>
 </item>
-<item historyLabel="style.css" index="1">
-<position info="not_deleted" x="5847" y="0"/>
+<item historyLabel="donate.html" index="0">
+<position info="not_deleted" x="3947" y="0"/>
 </item>
-<item historyLabel="index.html" index="0">
-<position info="not_deleted" x="10402" y="0"/>
+<item historyLabel="PigtailsFrame.html" index="2">
+<position info="not_deleted" x="0" y="5645"/>
 </item>
-<item historyLabel="style.css" index="1">
-<position info="not_deleted" x="5659" y="0"/>
+<item historyLabel="twofaceFrame.html" index="3">
+<position info="not_deleted" x="0" y="5646"/>
 </item>
-<item historyLabel="index.html" index="0">
-<position info="not_deleted" x="10402" y="0"/>
+<item historyLabel="culdesacFrame.html" index="4">
+<position info="not_deleted" x="0" y="5668"/>
 </item>
-<item historyLabel="style.css" index="1">
-<position info="not_deleted" x="5659" y="0"/>
+<item historyLabel="culdesacFrame.html" index="4">
+<position info="not_deleted" x="4379" y="0"/>
 </item>
-<item historyLabel="index.html" index="0">
-<position info="not_deleted" x="10402" y="0"/>
+<item historyLabel="warriorFrame.html" index="5">
+<position info="not_deleted" x="4378" y="0"/>
 </item>
-<item historyLabel="style.css" index="1">
-<position info="not_deleted" x="5732" y="0"/>
+<item historyLabel="culdesacFrame.html" index="4">
+<position info="not_deleted" x="3527" y="29"/>
 </item>
-<item historyLabel="index.html" index="0">
-<position info="not_deleted" x="10043" y="0"/>
+<item historyLabel="PigtailsFrame.html" index="2">
+<position info="not_deleted" x="3039" y="0"/>
 </item>
-<item historyLabel="style.css" index="1">
-<position info="not_deleted" x="5362" y="0"/>
+<item historyLabel="culdesacFrame.html" index="4">
+<position info="not_deleted" x="3527" y="29"/>
 </item>
-<item historyLabel="index.html" index="0">
-<position info="not_deleted" x="10043" y="0"/>
+<item historyLabel="twofaceFrame.html" index="3">
+<position info="not_deleted" x="0" y="5646"/>
 </item>
-<item historyLabel="style.css" index="1">
-<position info="not_deleted" x="5659" y="0"/>
+<item historyLabel="culdesacFrame.html" index="4">
+<position info="not_deleted" x="3527" y="29"/>
 </item>
-<item historyLabel="index.html" index="0">
-<position info="not_deleted" x="10436" y="0"/>
+<item historyLabel="warriorFrame.html" index="5">
+<position info="not_deleted" x="4378" y="0"/>
 </item>
-<item historyLabel="style.css" index="1">
-<position info="not_deleted" x="5551" y="0"/>
+<item historyLabel="culdesacFrame.html" index="4">
+<position info="not_deleted" x="3527" y="29"/>
 </item>
-<item historyLabel="index.html" index="0">
-<position info="not_deleted" x="10383" y="0"/>
+<item historyLabel="bangsFrame.html" index="6">
+<position info="not_deleted" x="3783" y="0"/>
 </item>
-<item historyLabel="style.css" index="1">
-<position info="not_deleted" x="5642" y="0"/>
-</item>
-<item historyLabel="index.html" index="0">
-<position info="not_deleted" x="10383" y="0"/>
-</item>
-<item historyLabel="style.css" index="1">
-<position info="not_deleted" x="5604" y="0"/>
-</item>
-<item historyLabel="index.html" index="0">
-<position info="not_deleted" x="10381" y="0"/>
-</item>
-<item historyLabel="style.css" index="1">
-<position info="not_deleted" x="5616" y="0"/>
-</item>
-<item historyLabel="index.html" index="0">
-<position info="not_deleted" x="10396" y="0"/>
-</item>
-<item historyLabel="style.css" index="1">
-<position info="not_deleted" x="7118" y="0"/>
-</item>
-<item historyLabel="index.html" index="0">
-<position info="not_deleted" x="10396" y="0"/>
-</item>
-<item historyLabel="style.css" index="1">
-<position info="not_deleted" x="7340" y="0"/>
-</item>
-<item historyLabel="index.html" index="0">
-<position info="not_deleted" x="11900" y="0"/>
-</item>
-<item historyLabel="style.css" index="1">
-<position info="not_deleted" x="3464" y="1"/>
-</item>
-<item historyLabel="index.html" index="0">
-<position info="not_deleted" x="12432" y="0"/>
-</item>
-<item historyLabel="style.css" index="1">
-<position info="not_deleted" x="4141" y="0"/>
-</item>
-<item historyLabel="index.html" index="0">
-<position info="not_deleted" x="9733" y="3"/>
-</item>
-<item historyLabel="style.css" index="1">
-<position/>
-</item>
-<item historyLabel="index.html" index="0">
-<position info="not_deleted" x="9844" y="0"/>
-</item>
-<item historyLabel="style.css" index="1">
-<position info="not_deleted" x="4228" y="20"/>
-</item>
-<item historyLabel="index.html" index="0">
-<position info="not_deleted" x="7893" y="0"/>
-</item>
-<item historyLabel="style.css" index="1">
-<position/>
-</item>
-<item historyLabel="index.html" index="0">
-<position info="not_deleted" x="7893" y="0"/>
-</item>
-<item historyLabel="style.css" index="1">
-<position info="not_deleted" x="4894" y="0"/>
-</item>
-<item historyLabel="index.html" index="0">
-<position info="not_deleted" x="9884" y="0"/>
-</item>
-<item active="true" historyLabel="style.css" index="1">
-<position info="not_deleted" x="4894" y="0"/>
+<item active="true" historyLabel="donate.html" index="0">
+<position info="not_deleted" x="3947" y="0"/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
@@ -396,9 +385,6 @@
 <workbenchWindowAdvisor/>
 <actionBarAdvisor/>
 <trimLayout>
-<trimArea IMemento.internal.id="16384">
-<trimItem IMemento.internal.id="left"/>
-</trimArea>
 <trimArea IMemento.internal.id="131072">
 <trimItem IMemento.internal.id="bottom"/>
 <trimItem IMemento.internal.id="org.eclipse.ui.internal.ViewStack@2b5d70ae"/>
@@ -416,6 +402,36 @@
 </trimLayout>
 </window>
 <mruList>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.html" name="PigtailsFrame.html" tooltip="/Users/Julian/Desktop/JulianGetsAHaircut/website/PigtailsFrame.html">
+<persistable uri="file:/Users/Julian/Desktop/JulianGetsAHaircut/website/PigtailsFrame.html"/>
+</file>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" name="PigtailsFrame" tooltip="/Users/Julian/Desktop/JulianGetsAHaircut/website/PigtailsFrame">
+<persistable uri="file:/Users/Julian/Desktop/JulianGetsAHaircut/website/PigtailsFrame"/>
+</file>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.css" name="otherpages.css" tooltip="/Users/Julian/Desktop/JulianGetsAHaircut/website/otherpages.css">
+<persistable uri="file:/Users/Julian/Desktop/JulianGetsAHaircut/website/otherpages.css"/>
+</file>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.css" name="popup.css" tooltip="/Users/Julian/Desktop/JulianGetsAHaircut/website/popup.css">
+<persistable uri="file:/Users/Julian/Desktop/JulianGetsAHaircut/website/popup.css"/>
+</file>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.js" name="dynamic_scrolling.js" tooltip="/Users/Julian/Desktop/JulianGetsAHaircut/website/dynamic_scrolling.js">
+<persistable uri="file:/Users/Julian/Desktop/JulianGetsAHaircut/website/dynamic_scrolling.js"/>
+</file>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.html" name="!.html" tooltip="/Users/Julian/Desktop/JulianGetsAHaircut/website/!.html">
+<persistable uri="file:/Users/Julian/Desktop/JulianGetsAHaircut/website/!.html"/>
+</file>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.html" name="mystory.html" tooltip="/Users/Julian/Desktop/JulianGetsAHaircut/website/mystory.html">
+<persistable uri="file:/Users/Julian/Desktop/JulianGetsAHaircut/website/mystory.html"/>
+</file>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" name="mystory" tooltip="/Users/Julian/Desktop/JulianGetsAHaircut/website/mystory">
+<persistable uri="file:/Users/Julian/Desktop/JulianGetsAHaircut/website/mystory"/>
+</file>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" name="terms" tooltip="/Users/Julian/Desktop/JulianGetsAHaircut/website/terms">
+<persistable uri="file:/Users/Julian/Desktop/JulianGetsAHaircut/website/terms"/>
+</file>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.html" name="index.html" tooltip="/Users/Julian/Desktop/JulianGetsAHaircut/website/index.html">
+<persistable uri="file:/Users/Julian/Desktop/JulianGetsAHaircut/website/index.html"/>
+</file>
 <file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.js" name="jd.gallery.js" tooltip="/Users/Julian/Desktop/JulianGetsAHaircut/website/jon1012-smoothgallery-205a5d5/scripts/jd.gallery.js">
 <persistable uri="file:/Users/Julian/Desktop/JulianGetsAHaircut/website/jon1012-smoothgallery-205a5d5/scripts/jd.gallery.js"/>
 </file>
@@ -427,12 +443,6 @@
 </file>
 <file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.css" name="jd.gallery.css" tooltip="/Users/Julian/Desktop/JulianGetsAHaircut/website/jon1012-smoothgallery-205a5d5/css/jd.gallery.css">
 <persistable uri="file:/Users/Julian/Desktop/JulianGetsAHaircut/website/jon1012-smoothgallery-205a5d5/css/jd.gallery.css"/>
-</file>
-<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.ui.systemExternalEditor" name="twitter-bird-light-bgs.png" tooltip="/Users/Julian/Desktop/JulianGetsAHaircut/website/twitter-bird-light-bgs.png">
-<persistable uri="file:/Users/Julian/Desktop/JulianGetsAHaircut/website/twitter-bird-light-bgs.png"/>
-</file>
-<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.css" name="style.css" tooltip="/Users/Julian/Desktop/JulianGetsAHaircut/website/style.css">
-<persistable uri="file:/Users/Julian/Desktop/JulianGetsAHaircut/website/style.css"/>
 </file>
 </mruList>
 </workbench>
