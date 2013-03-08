@@ -5,16 +5,16 @@
 		<item value="false" key="isRegEx"/>
 		<item value="false" key="casesensitive"/>
 		<item value="false" key="wholeword"/>
-		<item value="layout" key="selection"/>
+		<item value="hover" key="selection"/>
 		<list key="findhistory">
-			<item value="layout"/>
+			<item value="hover"/>
 			<item value="home"/>
+			<item value="donate"/>
+			<item value="stats"/>
+			<item value="first"/>
+			<item value="venmo"/>
 			<item value="content"/>
-			<item value="bkg"/>
-			<item value="nav_image"/>
-			<item value="donateim"/>
-			<item value="amountr"/>
-			<item value="amount"/>
+			<item value="donatiionamount"/>
 		</list>
 	</section>
 </section>

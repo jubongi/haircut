@@ -238,7 +238,7 @@ body {
 }
 #thecuts{
 	right:10%;
-	top:450px;
+	top:530px;
 	text-align:right;
 	position:absolute;
 }
@@ -260,11 +260,50 @@ body {
 	text-align:left;
 	position:absolute;
 }
+#vote{
+	top:350px;
+	right:20px;
+	text-align:right;
+	position:absolute;
+}
+.donate_now{
+	position:fixed;
+	right:20px;
+	bottom:10px;
+	opacity:.7;
+	z-index:99;
+}
+.donate_now:hover{
+	opacity:.9;
+}
+.donation_total{
+	width:800px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:50px;
+}
+.donation_total ul li{
+	display:inline-block;
+	z-index:99;
+	width:100px;
+	position:relative;
+	background-color:white;
+	border-radius:5px;
+	/*box-shadow: inner:*/
+	text-align:center;
+	margin-right:26px;
+	margin-left:26px;
+}
+.donation_total h2{
+	color:#975e0c;
+	line-height:10px;
+}
 .level_desc{
 	height:200px;
 	width:800px;
 	margin-left:auto;
 	margin-right:auto;
+	margin-top:30px;
 }
 .level_desc ul{
 	
@@ -376,11 +415,11 @@ nav ul li:hover ul.fallback {
 	position:fixed;
 	display:inline;
 	top:2px;
-	margin-left:-5%;
 	height:40px;
 	overflow-x:hidden;
 	width:70px;
 	padding-left:30px;
+	margin-left:20px;
 }
 #current_pics ul:hover{
 	overflow:visible;
@@ -398,7 +437,7 @@ nav ul li:hover ul.fallback {
 	top:30px;
 }
 #level_0{
-	height:650px;
+	height:850px;
 	position:relative;
 }
 .main{
@@ -449,7 +488,7 @@ nav ul li:hover ul.fallback {
 #level_1{
 	width:900px;
 	position:relative;
-	height:850px;
+	height:880px;
 	opacity:1;
 	display:block;
 	margin-right:auto;
@@ -474,15 +513,17 @@ nav ul li:hover ul.fallback {
 	text-decoration:underline;
 	line-height:12px;
 }
-#content_1 h2 {
-	
-}
 #content_1 h1 a {
 	color:#edb564;
 }
-#content_1 h2 a:hover{
-	
+#content_1 h2 a {
+	color:#edb564;
+	font-weight:500;
 }
+#content_1 h2 a:hover{
+	text-decoration:underline;
+	}
+
 #content_1 h3{
 	color:#4d6470;
 }
@@ -602,7 +643,7 @@ nav ul li:hover ul.fallback {
 #level_3{
 	width:900px;
 	position:relative;
-	height:820px;
+	height:890px;
 	opacity:1;
 	display:block;
 	margin-right:auto;
@@ -661,7 +702,24 @@ nav ul li:hover ul.fallback {
 	color:black;
 	font-size:10px;
 }
-
+#social_email{
+	display:block;
+	vertical-align:center;
+	height:80px;
+}
+#social_email a :hover{
+	opacity:.7;
+}
+#social_email p{
+	left:-10px;
+	width:93%;
+}
+#social_email h2{
+	padding-top:-30px;
+	margin-top:0px;
+	line-height:10px;
+	font-weight:400;
+}
 
 #bkg_4{
 	margin-right:auto;
@@ -725,7 +783,7 @@ nav ul li:hover ul.fallback {
 	color:black;
 	font-size:14px;
 	text-align:left;
-	line-height:16px;
+	line-height:20px;
 }
 #content_4 h3 a{
 	color:#445a88;
@@ -755,7 +813,7 @@ nav ul li:hover ul.fallback {
 }
 #arnold{
 	position:absolute;
-	top:3950px;
+	top:3250px;
 	left:0px;
 	z-index:30 !important;
 }
@@ -776,7 +834,7 @@ nav ul li:hover ul.fallback {
 	opacity:1;
 	display:block;
 	text-align:center;
-	height:820px;
+	height:860px;
 }
 #content_5{
 	width:53%;

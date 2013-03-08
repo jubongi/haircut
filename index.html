@@ -20,6 +20,10 @@
 		<script type="text/javascript" src="javascript"></script>
 
 		<link rel="stylesheet" type="text/css" href="style.css" />
+		
+				<link rel="stylesheet" type="text/css" href="style.css-toPush" />
+
+		
 		<script type="text/javascript" src="jquery-1.8.1.min.js"></script>
 		<script src="http://code.jquery.com/jquery-1.8.3.js"></script>
   		<script src="http://code.jquery.com/ui/1.9.2/jquery-ui.js"></script>
@@ -67,6 +71,15 @@
                 alert("Thank you for your comment!"); 
             }); 
         }); 
+        
+        <div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=130835263727664";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
    		</script> 
    </head>
 <script>
@@ -126,13 +139,13 @@ $('nav li').hover(
 					<li>
 						<a href="#warrior"><img src="mongol_trans.png" width="35px" alt="Warrior"></a>
 						<ul class="fallback">
-							<li><a href="#culdesac">EMAIL</a></li>
+							<li><a href="#culdesac">ACTION</a></li>
 						</ul>
 					</li>
 					<li>
 						<a href="#culdesac"><img src="culdesac_trans.png" width="35px" alt="Culdesac"></a>
 						<ul class="fallback">
-							<li><a href="#warrior">OUTREACH</a></li>
+							<li><a href="#warrior">YOUR STORY</a></li>
 						</ul>
 					</li>
 					<li><a href="#bangs"><img src="bangs_trans.png" width="35px" alt="Bangs"></a>
@@ -140,7 +153,8 @@ $('nav li').hover(
 							<li><a href="#bangs">BIO</a></li>
 						</ul>
 					</li>
-						<div id="current_pics">
+				</ul>
+					<div id="current_pics">
 							<ul>
 								<li>
 									<a href="https://www.facebook.com/Juliangetsahaircut/photos_stream" target="_blank"><img src="currrent_blank.png"width="30px"  alt="FB Photo Link"></a>
@@ -149,8 +163,7 @@ $('nav li').hover(
 									<img src="currrent_blank_me.png" width="200px"  alt="FB Photo Link">
 								</li>
 							</ul>
-						</div>			
-				</ul>
+						</div>	
 			</nav>
 
 		</div>
@@ -165,14 +178,37 @@ $('nav li').hover(
 						<div id="navigation"><img src="navigation.png" alt="Navgation" width="110px"></div>
 						<div id="scroll"><img src="scroll.png" alt="Scroll" width="110px"></div>
 						<div id="checkmeout"><img src="checkmeout.png" alt="check me out" width="110px"></div>
+						<div id="vote"><img src="vote.png" alt="vote" width="110px"></div>
 
 					</div>
 					<div id="headerimage">					
 						<img src="headerimage2.png" width="400px" alt="juliangetsahaircut">
 					</div>
 					<div id="header_desc">
-						<p><h2>Help me reach my fundraising goal and pick my next haircut. All we need is two weeks. And a razor. </h2></p>
+						<p><h2>Help raise $20,000 for cancer research and pick my next outrageous haircut. You bring the change, i'll bring the razor. </h2></p>
 					</div>
+				</div>
+				<div class="donate_now">
+					<a href="donate.html"><img src="barbershop.gif" alt="barbershop" width="50px;"></a>
+				</div>
+				<div class="donation_total">
+					<ul>
+						<li>
+							<h2>110</h2><!--pigtails-->
+						</li>
+						<li>
+							<h2>105</h2><!--twoface-->
+						</li>
+						<li>
+							<h2>120</h2><!--warrior-->
+						</li>
+						<li>
+							<h2>0</h2><!--culdesac-->
+						</li>
+						<li>
+							<h2>270</h2><!--bangs-->
+						</li>
+					</ul>
 				</div>
 				<div class="level_desc">
 					<ul>
@@ -231,20 +267,24 @@ $('nav li').hover(
 						<p><h2>Navigate the length of this page for info, all the haircuts, and the email form.</h2></p>
 					</div>
 				<div id="content_1">
-						<p>
-							<h2>1. Two Week Challenges</h2>
-							<h1>UNTIL March 24th 2013, you and I will perform a series of <a href="#culdesac">two-week challenges</a>. That way we can give everything we have, even if we don't have much money. <h3>(Example: Compliment the first person you meet today, or post an inspirational message to a fighter on the facebook page. More info below.)</h3></h1>				
-						</p>
-					
-						<p>
-							<h2>2. Choosing my haircut</h2>
-							<h1>BETWEEN March 24th and April 6th, voting opens. You will donate your money to a specific haircut. Every $10 is 12 votes. The haircut with the most votes wins. Pick your favorite, tell your friends and family and laugh it up!</h1>
-						</p>
-						<br>
-						<br>	
 					<p>
-						<h2>HOW WE&#39RE GONNA GET THERE</h2>
-						<h1><a href="#warrior">EMAIL</a>. I need you to subscribe your email so that I can let you know about the two week challenges. It really is important to me that you give more than money and offer a part of yourself to someone in need. Please fill out <a href="#warrior">this form</a>. Also, <a href="http://www.facebook.com/juliangetsahaircut">Facebook </a>and <a href="http://www.twitter.com/julianshaircut">Twitter</a> will be used for the two week challenges so make sure you like and follow. 
+							<h2>1. PICK YOUR FAVORITE HAIRCUT</h2>
+							<h1>Which haircut attracts you? Remember, it's all or nothing because all hair will be shaven off and donated. The haircut with the most votes <font color="brown"> by APRIL 6th </font>wins! <h3></h3></h1>				
+					</p>
+						
+					<p>
+							<h2>2. <a href="donate.html">DONATE</a></h2>
+							<h1>Thanks to venmo, no transaction fees when you use your debit card! Donate $5, $10, $20, $50, or $100 to a haircut and help me reach my <font color="brown">fundraising goal of $20,000</font>. All proceeds will go to Memorial Sloan Kettering Cancer Center. <a href="http://www.juliangetsahaircut.com/donate.html">DONATE NOW</a>. Don't want a venmo account? Donate <a href="http://mskcc.convio.net/goto/juliangetsahaircut" target="_blank">here</a> but remember to email me with the amount of your donation and the haircut you want!</h1>
+					</p>
+						
+					<p>
+							<h2>3. GET INVOLVED</h2>
+							<h1><a href="http://www.facebook.com/juliangetsahaircut">Like</a>, <a href="http://www.twitter.com/julianshaircut">follow</a>, <a href="#warrior">email</a>. Spread the love, pay it forward, help me help people and families just like yours and <a href="mystory.html">mine</a>. The more people that know, the more this can grow. </h1>
+					</p>
+							
+					<p>
+						<h2>4. LAUGH IT UP</h2>
+						<h1>You are choosing an outrageous haircut for me for<font color="brown"> my final month of college</font> and supporting two great causes. There are always things to be happy about, hopefully this is one. 
 					</p>
 				</div>
 				<div id="image1">
@@ -267,7 +307,7 @@ $('nav li').hover(
 							<p><a href="http://www.mskcc.org/" target="_blank"><img src="mskcc-logo.png" height="100px" alt="MSK"></a></p>
 							<p>The <b>Strategic Initiatives Fund </b>provides annual funding for <a href="http://www.mskcc.org" target="_blank">Memorial Sloan-Kettering Cancer Center</a>&#39s (MSKCC) leadership to direct resources to the most promising initiatives and pressing needs of the institution. This fund speeds the most promising work, thereby shortening the interval between the time new discoveries made in the laboratory are delivered to patients. It also provides seed money for vital new research opportunities as they arise and ensures the necessary means to attract, recruit, and retain the best and brightest researchers and physicians. Lastly, this fund supports novel research endeavors that might otherwise go unfunded.
 							</p>
-							<p><strong>Rather donate before March 24th? Awesome! I can't let your donation count toward choosing a haircut, but please feel free to do so on <a href="http://mskcc.convio.net/goto/juliangetsahaircut" target="_blank" alt="Giving Page">my personal giving page</a>.</strong></p>
+							<p><strong>Prefer not to donate through venmo? Feel free to do so on <a href="http://mskcc.convio.net/goto/juliangetsahaircut" target="_blank" alt="Giving Page">my personal giving page</a> on MSKCC's website.</strong> Make sure you email me with the amount you donated and what haircut you like so I can include your votes!</p>
 							<p>ALL PROCEEDS WILL BE DONATED TO MSKCC</p>
 						</div>
 						<div id="PBL">
@@ -288,15 +328,15 @@ $('nav li').hover(
 			<a name="warrior"></a>
 			<div id="bkg_3">
 			<div id="level_3">
-				<div class="intro">
-						<p><h1>PAY IT FORWARD</h1></p>
-						<p><h2>I'm going to need your help. Here's how.</h2></p>
-					</div>
+				<div id="intro">
+					<p><h1>READY? SET. GO.</h1></p>
+					<p><h2>Well?! Don't just sit there. Do something!</h2></p>
+				</div>
 				<div id="image3">
 					<img src="frame_warrior.png" alt="warrior" width="400px">
 				</div>
 				<div id="content_3">
-					<p><h3><strong>Never miss a two-week challenge. </strong> <br><br><small>Your email address will remain confidential and secure. <br>I am the only person that has permission to contact you.</small> </p></h3>
+					<p><h3><strong>Be the first of your friends and family to get involved!</strong> <br><br><small> We all know someone affected who diserves to hear about this and a personal email is the best way to inform them. No spam. Ever. </p></h3>
 					<div id="email_form">  	
 						<div id="mc_embed_signup"><br>
 							<form action="http://juliangetsahaitcut.us6.list-manage1.com/subscribe/post?u=3970d929a0c7d0327bb563447&amp;id=88c9198644" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
@@ -307,8 +347,13 @@ $('nav li').hover(
 						</form>
 						</div><!--End mc_embed_signup-->
 						<br>
+						<div id="social_email">
+							<p><h2>Like and Follow too!</h2></p>
+							<a href="http://www.facebook.com/juliangetsahaircut" target="_blank"><img src="facebookf.png" alt="facebook" height="90px"></a> <a href="http://twitter.com/julianshaircut" target="_blank"><img src="twitter-bird-light-bgs.png" height="90px"></a>
+							
+						</div>
 						<div id="thanks">
-							<h1><p>THANK YOU FOR YOUR PARTICIPATION, TIME, AND ASSISTANCE.</p></h1>
+							<h1><p><br>THANK YOU FOR YOUR PARTICIPATION, TIME, AND ASSISTANCE.</p></h1>
 						</div>
 					</div>
 				</div>
@@ -321,16 +366,14 @@ $('nav li').hover(
 			<div id="bkg_4">
 			<div id="level_4">
 				<div id="intro">
-					<p><h1>READY? SET. GO.</h1></p>
-					<p><h2>Well?! Don't just sit there. Do something!</h2></p>
-				</div>
+						<p><h1>Spread the love</h1></p>
+						<p><h2>I'm going to need your help. Here's how.</h2></p>
+					</div>
 				<div id="content_4">
-					<p><h2>TWO-WEEK CHALLENGES</h2></p>
-					<h3>These are a series of two-week campaigns designed to connect you with fighters and promote this idea. Participation is optional, but it is encouraged and fun. </h3>
-					<br><p><h1>1/27-2/9</h1><h3><strong>SOCIAL WELFARE:</strong> Help me reach my goal of 10,000 <a href="http://www.facebook.com/juliangetsahaircut" alt=" facebook"target="_blank">LIKES</a>! <a href="mailto:juliangetsahaircut%40gmail.com?subject=I%20WANT%20TO%20SPONSOR%20JULIANGETSAHAIRCUT.com&body=In%20the%20body%20of%20this%20email%2C%20please%20include%20the%20following%20information%3A%20%0A-Name%20%0A-Company%0A-Email%20address%0A-Phone%20number%0A%0A%24100%20will%20land%20you%20a%20spot%20on%20my%20page.%20%2450%20will%20get%20you%20on%20my%20t-shirts.%20No%20tobacco%20related%20organizations%20allowed.%20%0A">SPONSOR</a> my fundraising costs! <a href="http://www.twitter.com/julianshaircut" alt="twitter"target="_blank">FOLLOW ME</a> as I go places!</h3></p>
-					<br><p><h1>2/10-2/23</h1><h3><strong>RANDOM ACTS OF KINDNESS:</strong> I'll email you with the day's RAK and you do it. Simple as that. <a href="http://www.youtube.com/juliangetsahaircut" alt="Youtube Channel"target="_blank">Here's an example.</a></h3>(coming soon)</p>
-					<br><p><h1>2/24-3/9</h1><h3><strong>IMPROVE A LIFE:</strong> Connect with patients playing WordsWithFriends. Write a note to a fighter or their family. Know anyone interested? Have them fill out <a href="improvealife" alt="FormLink">this form</a>. </h3>(coming soon)</p>
-					<br><p><h1>3/10-3/23</h1><h3><strong>BEAUTIFUL LENGTHS:</strong> Donate <u>your</u> hair! I'm not expecting you to go all out like me, but hopefully <a href="greatclips" target="_blank"alt="coupon">this coupon</a> can entice you to get a cut. Be sure to read all the <a href="http://www.pantene.com/en-US/PanteneBeautifulLengths/Details/beautiful-lengths-make-the-cut.aspx" alt="Beutiful Lengths Rules">rules for donating</a> first!</h3>(coming soon)</p> 				
+					<br><p><h2><b><center>Tell Us Your Story</center></b></h2></p>
+					<br><br>
+					<p><h1></h1><h3><br><b>Cancer affects everybody differently, especially the first time.</b> <br>Please fill out one of the following questionnaires to help someone similar through a difficult time.<br><center><br><br><a href="survivor.html">survivor</a><br><br><a href="intreatment.html">fighter</a><br><br><a href="otherform.html">have been affected by cancer in another way</a></center> <br><br><br>Your voice matters and I would like to make it heard. <br>All questions are voluntary and responses confidential and anonymous. </h3></p>
+
 				</div>
 				<div id="image4">
 					<img src="frame_culdsac.png" alt="culdesack" width="400px">

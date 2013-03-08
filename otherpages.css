@@ -79,6 +79,9 @@
 #footer2{
 	background-color:white;
 	padding: 20px 100px 20px 100px;
+	margin:0px;
+	min-width:2000px;
+	display:inline;
 }
 #footer2 #image{
 	width:200px;
@@ -160,7 +163,8 @@
 	opacity:1;
 	width:100%;
 	min-width:1000px;
-	padding:0px;
+	padding-top:150px !important;
+	padding-bottom:30px !important;
 	margin:0px;
 }
 #pickcut{
@@ -429,6 +433,32 @@
 	padding:32px;
 	width:85px;
 	height:70px;
-	opacity:.6;
-	background-color:white;
+
+}
+#venmoaccount{
+	position:absolute;
+	top:1050px;
+	left:100px;
+	width:600px;
+	display:inline-block;
+	height:300px;
+	z-index:39;
+}
+#venmoaccountbtn{
+	height:20px;
+	background-color:#3d95ce;
+	border-radius:10px;
+	width:200px;
+	text-align:center;
+	margin-left:20px;
+	padding:10px 20px 10px 20px;
+	display:inline-block;
+}
+#venmoaccountbtn:hover{
+	opacity:.5;
+	background-color:black;
+	}
+#venmoaccountbtn h2{
+	font-size:18px;
+	line-height:16px;
 }
